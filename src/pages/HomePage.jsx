@@ -6,12 +6,11 @@ function HomePage() {
 
   return (
     <div className="page">
+      <section className="hero-full">
       <section className="hero-section">
         <p className="eyebrow">Daniel Bentzen-Bilkvist</p>
         <h1>Create things</h1>
-        <p className="hero-text">
-          Skills:
-        </p>
+        <p className="hero-text">Skills:</p>
         <div className="actions">
           <Link className="button" to="/projects">
             Se projekter
@@ -21,11 +20,18 @@ function HomePage() {
           </Link>
         </div>
       </section>
+      <div className="hero-image">
+        <img
+          src={`${import.meta.env.BASE_URL}public/att.rmKBjZP613naZ-_RswJb4pMvxoZO15LjI9EV3Uj8PYU 2.png`}
+          alt="Hero"
+        />
+      </div>
+      </section>
 
       <section className="section">
         <div className="section-heading">
           <p className="eyebrow">Udvalgte projekter</p>
-          <h2>Start med få projekter og gør dem stærke.</h2>
+          <h2>Projects</h2>
         </div>
 
         <div className="project-grid">

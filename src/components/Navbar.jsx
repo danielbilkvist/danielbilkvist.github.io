@@ -4,7 +4,10 @@ function Navbar() {
   return (
     <header className="site-header">
       <NavLink className="brand" to="/">
-        LOGO
+        <img
+          src={`${import.meta.env.BASE_URL}public/Union.png`}
+          alt="Hero"
+        />
       </NavLink>
 
       <nav className="site-nav" aria-label="Primær navigation">

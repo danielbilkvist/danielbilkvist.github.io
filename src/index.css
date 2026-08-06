@@ -49,6 +49,11 @@ textarea {
   text-decoration: none;
 }
 
+.brand img {
+  width: 8rem;
+  height: auto;
+}
+
 .site-nav {
   display: flex;
   flex-wrap: wrap;
@@ -72,7 +77,9 @@ textarea {
 .page {
   width: min(100% - 2rem, 1120px);
   margin: 0 auto;
-  padding: 3rem 0 5rem;
+  position: relative;
+  overflow: hidden;
+  /* padding: 3rem 0 5rem; */
 }
 
 .narrow {
@@ -84,7 +91,45 @@ textarea {
   gap: 1.5rem;
   align-content: center;
   min-height: 58svh;
-  padding: 3rem 0;
+  /* padding: 3rem 0; */
+}
+
+.hero-image {
+  /* padding: 3rem 0; */
+  overflow: hidden;
+}
+
+.hero-image img {
+  width: 40rem;
+  height: auto;
+  display: block;
+  position: absolute;
+  right: 0rem;
+  z-index: -1;
+}
+
+@media (max-width: 1020px) {
+  .hero-image img {
+    position: absolute;
+    right: -12rem;
+    width: 100%;
+  }
+}
+
+.hero-full {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 1.5rem;
+  align-content: center;
+  min-height: 50svh;
+  /* padding: 3rem 0; */
+}
+
+@media (max-width: 1020px) {
+  .hero-full {
+    min-height: 0svh;
+  }
 }
 
 .section {
