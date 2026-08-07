@@ -9,8 +9,8 @@ function HomePage() {
       <section className="hero-full">
       <section className="hero-section">
         <p className="eyebrow">Daniel Bentzen-Bilkvist</p>
-        <h1>Create things</h1>
-        <p className="hero-text">Skills:</p>
+        <h1>Bla Bla Make Something</h1>
+        <p className="hero-text">Multimedia Designer at Erhvervsakademi Aarhus</p>
         <div className="actions">
           <Link className="button" to="/projects">
             Se projekter

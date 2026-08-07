@@ -212,16 +212,17 @@ p {
   min-height: 2.75rem;
   border: 1px solid #111827;
   border-radius: 999px;
-  color: #ffffff;
-  background: #111827;
+  color: #111827;
+  background: #ffffff;
   padding: 0.7rem 1rem;
   font-weight: 700;
   text-decoration: none;
 }
 
 .button.secondary {
-  color: #111827;
-  background: transparent;
+  color: #ffffff;;
+  background: #111827;
+  /* background: transparent; */
 }
 
 .project-grid {
