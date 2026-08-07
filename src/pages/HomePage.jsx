@@ -11,7 +11,7 @@ function HomePage() {
           <p className="eyebrow">Daniel Bentzen-Bilkvist</p>
           <h1>Create more than you consume</h1>
           <p className="hero-text">
-            Multimedia Designer at Erhvervsakademi Aarhus
+            UI/UX Design | Figma | Adobe | React | HTML, CSS, JavaScript | Social Media Marketing 
           </p>
           <div className="actions">
             <Link className="button" to="/projects">

@@ -41,6 +41,9 @@ textarea {
   width: min(100% - 2rem, 1120px);
   margin: 0 auto;
   padding: 1.25rem 0;
+  position: sticky;
+  top: 0;
+  z-index: 10;
 }
 
 .brand {
@@ -255,8 +258,15 @@ p {
   text-decoration: none;
 }
 
+@media (max-width: 720px) {
+  .project-card {
+    flex-direction: column;
+  }
+}
+
 .project-card:hover {
-  transform: translateY(-0.25rem);
+  transform: scale(1.01);
+  transition: transform 0.1s ease-in-out;
 }
 
 .project-card:nth-child(even) {
@@ -264,11 +274,24 @@ p {
   justify-content: space-between;
 }
 
+@media (max-width: 720px) {
+  .project-card:nth-child(even) {
+    flex-direction: column;
+  }
+}
+
 .project-card img {
   width: 45%;
   height: auto;
   aspect-ratio: 16 / 10;
   object-fit: cover;
+}
+
+@media (max-width: 720px) {
+  .project-card img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+  }
 }
 
 .project-card-content {
