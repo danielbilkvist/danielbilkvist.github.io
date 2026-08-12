@@ -1,17 +1,17 @@
 const projects = [
   {
-    slug: "portfolio",
-    title: "Portfolio",
-    year: "2026",
+    slug: "customer-experience",
+    title: "WANTED Archives",
+    year: "Customer Experience Project",
     summary: "En personlig portfolio bygget med React, Vite og GitHub Pages.",
     description:
       "Portfolioen viser udvalgte projekter og fungerer som et udgangspunkt for at arbejde med komponenter, routing, styling og deployment.",
     tags: ["React", "Vite", "GitHub Pages"],
-    image: `${import.meta.env.BASE_URL}portfolio-placeholder.svg`,
+    image: `${import.meta.env.BASE_URL}MockupWanted.png`,
     links: [
       {
         label: "Live site",
-        href: "https://username.github.io",
+        href: "https://magecties.github.io/customer-experience-exam/",
       },
       {
         label: "GitHub repo",
@@ -20,18 +20,36 @@ const projects = [
     ],
   },
   {
-    slug: "case-study",
-    title: "Case study",
-    year: "2026",
-    summary: "Et projektkort, som du kan kopiere og ændre til dit eget projekt.",
+    slug: "exam-project",
+    title: "Spilcaféen",
+    year: "Interaction Design Project",
+    summary:
+      "Et projektkort, som du kan kopiere og ændre til dit eget projekt.",
     description:
       "Beskriv problemet, processen, din rolle, de vigtigste valg og hvad du lærte. Gør projektet konkret, så andre kan forstå dit arbejde.",
     tags: ["Design", "Frontend", "Proces"],
-    image: `${import.meta.env.BASE_URL}portfolio-placeholder.svg`,
+    image: `${import.meta.env.BASE_URL}MockupSpilcafe.png`,
     links: [
       {
         label: "Eksempel-link",
-        href: "https://github.com",
+        href: "https://danielbilkvist.github.io/SpilcafeEksamen/",
+      },
+    ],
+  },
+  {
+    slug: "web-app",
+    title: "Hoomie",
+    year: "Web App Project",
+    summary:
+      "Et projektkort, som du kan kopiere og ændre til dit eget projekt.",
+    description:
+      "Beskriv problemet, processen, din rolle, de vigtigste valg og hvad du lærte. Gør projektet konkret, så andre kan forstå dit arbejde.",
+    tags: ["Design", "Frontend", "Proces"],
+    image: `${import.meta.env.BASE_URL}MockupHoomie.png`,
+    links: [
+      {
+        label: "Eksempel-link",
+        href: "https://sebbbenator.github.io/hoomie/task",
       },
     ],
   },
