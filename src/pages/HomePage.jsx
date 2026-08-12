@@ -11,10 +11,8 @@ function HomePage() {
         <section className="hero-section">
           <p className="eyebrow">Daniel Bentzen-Bilkvist</p>
           <h1>Create more than you consume</h1>
-          <p className="hero-text">
-            UI/UX Design | Figma | Adobe | React | HTML, CSS, JavaScript |
-            Social Media Marketing
-          </p>
+          <p className="hero-text">UI/UX Design | Social Media Marketing</p>
+          <p className="hero-text">Figma | Adobe | React | HTML, CSS, JavaScript</p>
           <div className="actions">
             <Link className="button" to="/projects">
               Se projekter
@@ -34,8 +32,8 @@ function HomePage() {
 
       <section className="section">
         <div className="section-heading">
-          <p className="eyebrow">Udvalgte projekter</p>
-          <h2>Projects</h2>
+          {/* <p className="eyebrow">Featured Projects</p> */}
+          <h2>Featured Projects:</h2>
         </div>
 
         <div className="project-grid">

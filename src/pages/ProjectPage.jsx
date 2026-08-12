@@ -20,20 +20,22 @@ function ProjectPage() {
 
   return (
     <article className="page narrow">
-      <Link className="back-link" to="/projects">
-        Tilbage til projekter
-      </Link>
-
-      <img className="detail-image" src={project.image} alt="" />
+      {/* <Link className="back-link" to="/projects">
+        Go back
+      </Link> */}
       <p className="eyebrow">{project.year}</p>
       <h1>{project.title}</h1>
       <p className="lead">{project.description}</p>
 
-      <ul className="tag-list">
-        {project.tags.map((tag) => (
-          <li key={tag}>{tag}</li>
-        ))}
-      </ul>
+      <section className="tag-links">
+        <ul className="tag-list">
+          {project.tags.map((tag) => (
+            <li key={tag}>{tag}</li>
+          ))}
+        </ul>
+      </section>
+
+      <img className="detail-image" src={project.image} alt="" />
 
       <div className="actions">
         {project.links.map((link) => (

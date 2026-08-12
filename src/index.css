@@ -250,6 +250,15 @@ p {
   /* background: transparent; */
 }
 
+/* .tag-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 1.25rem 0;
+  list-style: none;
+} */
+
 .project-grid {
   display: grid;
   grid-template-columns: 1fr;
