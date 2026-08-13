@@ -7,7 +7,7 @@ const projects = [
     description:
       "WANTED Archives is a fictional clothing brand. The brand identity is created from scratch. Its mostly inspired by rough and urban street fashion, with a touch of wild west vigilante energy. The project is built with React, Vite and deployed on GitHub Pages. The project is a single page application (SPA) with a responsive design.",
     tags: ["React", "Vite", "GitHub Pages"],
-    image: `${import.meta.env.BASE_URL}MockupWanted.png`,
+    image: `${import.meta.env.BASE_URL}MockupWanted.svg`,
     image2: `${import.meta.env.BASE_URL}MockupHoomie.png`,
     links: [
       {
@@ -29,7 +29,7 @@ const projects = [
     description:
       "Beskriv problemet, processen, din rolle, de vigtigste valg og hvad du lærte. Gør projektet konkret, så andre kan forstå dit arbejde.",
     tags: ["Design", "Frontend", "Proces"],
-    image: `${import.meta.env.BASE_URL}MockupSpilcafe.png`,
+    image: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
     links: [
       {
         label: "Eksempel-link",
@@ -46,7 +46,7 @@ const projects = [
     description:
       "Beskriv problemet, processen, din rolle, de vigtigste valg og hvad du lærte. Gør projektet konkret, så andre kan forstå dit arbejde.",
     tags: ["Design", "Frontend", "Proces"],
-    image: `${import.meta.env.BASE_URL}MockupHoomie.png`,
+    image: `${import.meta.env.BASE_URL}MockupHoomie.svg`,
     links: [
       {
         label: "Eksempel-link",

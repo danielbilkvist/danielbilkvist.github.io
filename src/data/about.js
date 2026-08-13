@@ -1,17 +1,17 @@
 const about = [
-//   {
-//     id: 1,
-//     title: "Well my name is Daniel",
-//     description:
-//       "I am 23 years old and currently studying as a multimedia designer at EAAA.",
-//     image: `${import.meta.env.BASE_URL}MockupWanted.png`,
-//   },
-//   {
-//     id: 2,
-//     title: "Two",
-//     description: "Description.",
-//     image: `${import.meta.env.BASE_URL}MockupWanted.png`,
-//   },
+  {
+    id: 1,
+    title: "Well my name is Daniel",
+    description:
+      "I am 23 years old and currently studying as a multimedia designer at EAAA.",
+    image: `${import.meta.env.BASE_URL}Kitchen.JPG`,
+  },
+  {
+    id: 2,
+    title: "Two",
+    description: "Description.",
+    image: `${import.meta.env.BASE_URL}Travel.JPG`,
+  },
   {
     id: 3,
     title: "Playagent in LEGO House!",
