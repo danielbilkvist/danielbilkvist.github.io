@@ -1,15 +1,13 @@
 .site-header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  width: min(100% - 2rem, 1120px);
-  margin: 0 auto;
-  /* padding: 1.25rem 0; */
-  /* position: sticky;
+  position: sticky;
   top: 0;
   z-index: 10;
-  background-color: #f7f4ef; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: min(100% - 2rem, 1120px);
+  margin: 0 auto;
+  min-height: 72px;
 }
 
 .brand {
@@ -24,16 +22,13 @@
 }
 
 .site-nav {
-  grid-template-columns: 2fr;
   display: flex;
   flex-wrap: wrap;
-  justify-content: flex-end;
   gap: 0.25rem;
 }
 
  @media (max-width: 720px) {
   .site-nav {
-    grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
     justify-content: space-between;
   }
   .brand {

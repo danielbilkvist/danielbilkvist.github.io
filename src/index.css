@@ -33,7 +33,7 @@ textarea {
   font: inherit;
 }
 
-.site-header {
+/* .site-header {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -84,7 +84,7 @@ textarea {
 .site-nav a:hover {
   color: #eda53a;
   background: #ffffff;
-}
+} */
 
 .page {
   width: min(100% - 2rem, 1120px);
@@ -398,14 +398,14 @@ p {
     width: 4rem;
   }
 
-  .site-header {
+  /* .site-header {
     align-items: flex-end;
     flex-direction: row;
   }
 
   .site-nav {
     justify-content: flex-start;
-  }
+  } */
 
   .page {
     padding-top: 2rem;

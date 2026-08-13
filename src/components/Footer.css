@@ -1,0 +1,8 @@
+.site-footer {
+    display: flex;
+}
+
+.brand-footer {
+  width: 10rem;
+  height: auto;
+}
