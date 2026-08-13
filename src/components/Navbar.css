@@ -5,10 +5,11 @@
   gap: 1rem;
   width: min(100% - 2rem, 1120px);
   margin: 0 auto;
-  padding: 1.25rem 0;
+  /* padding: 1.25rem 0; */
   position: sticky;
   top: 0;
   z-index: 10;
+  background-color: #f7f4ef;
 }
 
 .brand {
@@ -23,7 +24,7 @@
 }
 
 .site-nav {
-  grid-template-columns: 2fr 2fr 2fr;
+  grid-template-columns: 2fr;
   display: flex;
   flex-wrap: wrap;
   justify-content: flex-end;
@@ -33,9 +34,12 @@
  @media (max-width: 720px) {
   .site-nav {
     grid-template-columns: repeat(auto-fit, minmax(6rem, 1fr));
-    justify-content: flex-end;
+    justify-content: space-between;
   }
-} 
+  .brand {
+    display:none
+  }
+}
 
 .site-nav a {
   border-radius: 999px;
