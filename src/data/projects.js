@@ -5,9 +5,10 @@ const projects = [
     year: "Customer Experience Project",
     summary: "En personlig portfolio bygget med React, Vite og GitHub Pages.",
     description:
-      "Portfolioen viser udvalgte projekter og fungerer som et udgangspunkt for at arbejde med komponenter, routing, styling og deployment.",
+      "WANTED Archives is a fictional clothing brand. The brand identity is created from scratch. Its mostly inspired by rough and urban street fashion, with a touch of wild west vigilante energy. The project is built with React, Vite and deployed on GitHub Pages. The project is a single page application (SPA) with a responsive design.",
     tags: ["React", "Vite", "GitHub Pages"],
     image: `${import.meta.env.BASE_URL}MockupWanted.png`,
+    image2: `${import.meta.env.BASE_URL}MockupHoomie.png`,
     links: [
       {
         label: "Live site",

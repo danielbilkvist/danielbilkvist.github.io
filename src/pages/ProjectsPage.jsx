@@ -4,8 +4,8 @@ import projects from "../data/projects";
 function ProjectsPage() {
   return (
     <div className="page">
-      <section className="section intro">
-        <p className="eyebrow">Daniel Bentzen-Bilkvist</p>
+      <section className="section-intro">
+        <p className="eyebrow">Projects</p>
         <h1>What I Create</h1>
         {/* <p>Discover my projects, workflows and small experiments</p> */}
       </section>

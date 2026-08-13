@@ -26,16 +26,19 @@ function ProjectPage() {
       <p className="eyebrow">{project.year}</p>
       <h1>{project.title}</h1>
       <p className="lead">{project.description}</p>
+      <img className="detail-image" src={project.image} alt="" />
 
-      <section className="tag-links">
+      <p className="eyebrow">{project.year}</p>
+      <p className="lead">{project.description}</p>
+      <img className="detail-image" src={project.image2} alt="" />
+
+      {/* <section className="tag-links">
         <ul className="tag-list">
           {project.tags.map((tag) => (
             <li key={tag}>{tag}</li>
           ))}
         </ul>
-      </section>
-
-      <img className="detail-image" src={project.image} alt="" />
+      </section> */}
 
       <div className="actions">
         {project.links.map((link) => (

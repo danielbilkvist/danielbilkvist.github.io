@@ -1,0 +1,11 @@
+.profile {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+}
+
+.profile-image {
+    width: 50%;
+    height: auto;
+    object-fit: cover;
+}

@@ -11,14 +11,29 @@ function HomePage() {
         <section className="hero-section">
           <p className="eyebrow">Daniel Bentzen-Bilkvist</p>
           <h1>Create more than you consume</h1>
-          <p className="hero-text">UI/UX Design | Social Media Marketing</p>
-          <p className="hero-text">Figma | Adobe | React | HTML, CSS, JavaScript</p>
+          <div className="skills">
+            <img
+              src={`${import.meta.env.BASE_URL}public/Figma.svg`}
+              alt="Figma"
+            />
+            <img
+              src={`${import.meta.env.BASE_URL}public/React.svg`}
+              alt="React"
+            />
+            <img
+              src={`${import.meta.env.BASE_URL}public/Adobe.svg`}
+              alt="Adobe"
+            />
+          </div>
+          {/* <p className="hero-text">UI/UX Design | React Coding | Figma Prototyping</p> */}
+          {/* <p className="hero-text">UI/UX Design | Social Media Marketing</p>
+          <p className="hero-text">Figma | Adobe | React | HTML, CSS, JavaScript</p> */}
           <div className="actions">
             <Link className="button" to="/projects">
-              Se projekter
+              View Creations
             </Link>
             <Link className="button secondary" to="/contact">
-              Kontakt mig
+              Talk to me
             </Link>
           </div>
         </section>
@@ -32,8 +47,8 @@ function HomePage() {
 
       <section className="section">
         <div className="section-heading">
-          {/* <p className="eyebrow">Featured Projects</p> */}
-          <h2>Featured Projects:</h2>
+          <p className="eyebrow">You might also like</p>
+          <h2>Check these out:</h2>
         </div>
 
         <div className="project-grid">
