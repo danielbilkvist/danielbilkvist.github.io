@@ -263,9 +263,12 @@ p {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
+  /* border: 1px solid #e5ddd2;
+  border-radius: 0.75rem;
+  background: #fffaf3; */
 }
 
-.project-card {
+/* .project-card {
   display: flex;
   flex-direction: row;
   align-items: stretch;
@@ -280,7 +283,7 @@ p {
   .project-card {
     flex-direction: column;
   }
-}
+} */
 
 .project-card:hover {
   transform: translateY(-0.25rem);
@@ -303,6 +306,7 @@ p {
   height: auto;
   aspect-ratio: 16 / 10;
   object-fit: cover;
+  
 }
 
 @media (max-width: 720px) {

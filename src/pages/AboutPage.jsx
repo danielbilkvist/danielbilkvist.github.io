@@ -5,10 +5,9 @@ function AboutPage() {
     <div className="page">
       <p className="eyebrow">About me</p>
       <h1>Who am I?</h1>
-      <p className="lead">
-        Skriv kort om din faglige retning, dine interesser og hvad du gerne vil
-        blive bedre til. Hold teksten konkret og personlig.
-      </p>
+      {/* <p className="lead">
+        Underneath i have carefully picked pictures from my life, which i think are capable of representing who i was, am and will be.
+      </p> */}
 
       <section className="info-list" aria-label="About me">
         <AboutGrid />

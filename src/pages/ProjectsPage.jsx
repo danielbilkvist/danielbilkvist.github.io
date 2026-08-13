@@ -5,12 +5,9 @@ function ProjectsPage() {
   return (
     <div className="page">
       <section className="section intro">
-        <p className="eyebrow">Projekter</p>
-        <h1>Mine projekter</h1>
-        <p>
-          Udskift eksemplerne med dine egne projekter. Brug korte beskrivelser,
-          tydelige billeder og links til live versioner eller GitHub repos.
-        </p>
+        <p className="eyebrow">Daniel Bentzen-Bilkvist</p>
+        <h1>What I Create</h1>
+        {/* <p>Discover my projects, workflows and small experiments</p> */}
       </section>
 
       <section className="project-grid" aria-label="Projektliste">
@@ -23,16 +20,16 @@ function ProjectsPage() {
             <img src={project.image} alt={`Preview af ${project.title}`} />
             <div className="project-card-content">
               <div className="project-card-content-top">
-              <p className="eyebrow">{project.year}</p>
-              <h3>{project.title}</h3>
-              <p>{project.summary}</p>
+                <p className="eyebrow">{project.year}</p>
+                <h3>{project.title}</h3>
+                <p>{project.summary}</p>
               </div>
               <div className="project-card-content-bottom">
-              <ul className="tag-list">
-                {project.tags.map((tag) => (
-                  <li key={tag}>{tag}</li>
-                ))}
-              </ul>
+                <ul className="tag-list">
+                  {project.tags.map((tag) => (
+                    <li key={tag}>{tag}</li>
+                  ))}
+                </ul>
               </div>
             </div>
           </Link>
