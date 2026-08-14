@@ -9,7 +9,7 @@ const about = [
   {
     id: 2,
     title: "Discovering the world",
-    description: "I love traveling, and i think its important to experience a wide variety of cultures and ways of life, to easier be able to understand and relate to others. An amazing trait to have when working with User Needs and Experiences.",
+    description: "I love traveling, and i think its important to experience a wide variety of cultures and ways of life, to easier be able to understand and relate to others. An amazing trait to have when working with User Needs and Experiences ;)",
     image: `${import.meta.env.BASE_URL}Gade.JPG`,
   },
   {
@@ -37,14 +37,14 @@ const about = [
     id: 6,
     title: "Me at 3 years old BTW",
     description:
-      "I had to include at least two pictures of my lego and me. I think it fits compared to time ive spent building with it.",
+      "I had to include at least two pictures of my lego and I. I think it fits compared to the time ive spent building with it.",
     image: `${import.meta.env.BASE_URL}OrientExpedition.JPG`,
   },
   {
     id: 7,
-    title: "I love concerts and discovering new music.",
+    title: "I love concerts and discovering music",
     description:
-      "I was pretty late to discover how important music is to me. Its one of the most powerful ways help strengthen different moods and emotions, which i especially important when im working on different project that require different mindsets.",
+      "I was pretty late to discover how important music is to me. Its one of the most powerful ways help strengthen different moods and emotions, which is especially important when im working on different project that require different mindsets.",
     image: `${import.meta.env.BASE_URL}Concert.jpg`,
   },
   // {
