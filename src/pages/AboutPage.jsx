@@ -1,22 +1,57 @@
+import AboutGrid from "../components/AboutGrid";
+import "./AboutPage.css";
+
 function AboutPage() {
   return (
-    <div className="page narrow">
-      <p className="eyebrow">Om mig</p>
-      <h1>Hvem er jeg?</h1>
-      <p className="lead">
-        Skriv kort om din faglige retning, dine interesser og hvad du gerne vil
-        blive bedre til. Hold teksten konkret og personlig.
-      </p>
+    <div className="page">
+      <div className="profile">
+        <p className="profile-info">
+          <p className="eyebrow">About me</p>
+          <h1>Who am I?</h1>
+          <p className="intro">
+            {/* My name is Daniel Bentzen-Bilkvist, and I am a 23 year old designer and developer from Denmark. I have a passion for creating digital products that are both visually appealing and user-friendly. My goal is to create more than I consume, and I strive to make a positive impact through my work. */}
+            My name is Daniel Bentzen-Bilkvist and I was born in 2003. I am
+            currently living in Aarhus, Denmark, where i startet studying at
+            EAAA, to become a Multiumedia Designer by 2027. I love the concept
+            of bringing my ideas to life, wether its through coding a website,
+            designing a poster or creating fictional stories.
+          </p>
 
-      <section className="info-list" aria-label="Om mig detaljer">
-        <div>
+          <p className="outro">
+            Underneath i have carefully picked pictures from my life, which i
+            think are capable of representing who i was, am and will be.
+          </p>
+          <div className="contact-info">
+            <p className="mail">
+              <a href="mailto:daniel@bilkvist.dk">daniel@bilkvist.dk</a>
+            </p>
+            <p className="phone">
+              <a href="tel:+4560694929">+45 60694929</a>
+            </p>
+          </div>
+        </p>
+        <img
+          className="profile-image"
+          src={`${import.meta.env.BASE_URL}public/Amsterdam.png`}
+          alt="Me"
+        />
+      </div>
+
+      <section className="info-list" aria-label="About me">
+        <AboutGrid />
+        {/* <div>
           <h2>Jeg arbejder med</h2>
-          <p>React, HTML, CSS, JavaScript, designproces og digitale produkter.</p>
+          <p>
+            React, HTML, CSS, JavaScript, designproces og digitale produkter.
+          </p>
         </div>
         <div>
           <h2>Jeg er nysgerrig på</h2>
-          <p>Brugeroplevelser, visuel identitet og hvordan kode bliver til noget brugbart.</p>
-        </div>
+          <p>
+            Brugeroplevelser, visuel identitet og hvordan kode bliver til noget
+            brugbart.
+          </p>
+        </div> */}
       </section>
     </div>
   );

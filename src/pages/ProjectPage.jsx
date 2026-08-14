@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router";
 import projects from "../data/projects";
+import "./ProjectPage.css";
 
 function ProjectPage() {
   const { slug } = useParams();
@@ -20,21 +21,14 @@ function ProjectPage() {
 
   return (
     <article className="page narrow">
-      <Link className="back-link" to="/projects">
-        Tilbage til projekter
-      </Link>
-
-      <img className="detail-image" src={project.image} alt="" />
+      {/* <Link className="back-link" to="/projects">
+        Go back
+      </Link> */}
+      <div className="top-project-content">
+      <div className="project-title">
       <p className="eyebrow">{project.year}</p>
       <h1>{project.title}</h1>
-      <p className="lead">{project.description}</p>
-
-      <ul className="tag-list">
-        {project.tags.map((tag) => (
-          <li key={tag}>{tag}</li>
-        ))}
-      </ul>
-
+      </div>
       <div className="actions">
         {project.links.map((link) => (
           <a
@@ -48,6 +42,21 @@ function ProjectPage() {
           </a>
         ))}
       </div>
+      </div>
+      <p className="lead">{project.summary}</p>
+      <img className="detail-image" src={project.image} alt="" />
+
+      {/* <p className="eyebrow">{project.year}</p>
+      <p className="lead">{project.description}</p>
+      <img className="detail-image" src={project.image2} alt="" /> */}
+
+      {/* <section className="tag-links">
+        <ul className="tag-list">
+          {project.tags.map((tag) => (
+            <li key={tag}>{tag}</li>
+          ))}
+        </ul>
+      </section> */}
     </article>
   );
 }
