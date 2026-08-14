@@ -13,15 +13,15 @@ function HomePage() {
           <h1>Create more than you consume</h1>
           <div className="skills">
             <img
-              src={`${import.meta.env.BASE_URL}public/Figma.svg`}
+              src={`${import.meta.env.BASE_URL}Figma.svg`}
               alt="Figma"
             />
             <img
-              src={`${import.meta.env.BASE_URL}public/React.svg`}
+              src={`${import.meta.env.BASE_URL}React.svg`}
               alt="React"
             />
             <img
-              src={`${import.meta.env.BASE_URL}public/Adobe.svg`}
+              src={`${import.meta.env.BASE_URL}Adobe.svg`}
               alt="Adobe"
             />
           </div>
@@ -39,7 +39,7 @@ function HomePage() {
         </section>
         <div className="hero-image">
           <img
-            src={`${import.meta.env.BASE_URL}public/Daniel.png`}
+            src={`${import.meta.env.BASE_URL}Daniel.png`}
             alt="Hero"
           />
         </div>

@@ -32,7 +32,7 @@ function AboutPage() {
         </p>
         <img
           className="profile-image"
-          src={`${import.meta.env.BASE_URL}public/Amsterdam.png`}
+          src={`${import.meta.env.BASE_URL}Amsterdam.png`}
           alt="Me"
         />
       </div>

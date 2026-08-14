@@ -6,7 +6,7 @@ function Footer() {
       <div className="footer-brand">
         <img
           className="brand-footer"
-          src={`${import.meta.env.BASE_URL}public/LogoBlockWhite.svg`}
+          src={`${import.meta.env.BASE_URL}LogoBlockWhite.svg`}
           alt="Signature"
         />
 
@@ -21,7 +21,7 @@ function Footer() {
       <nav className="footer-links" aria-label="Contact links">
         <a href="mailto:danielbilkvist@gmail.com">
           <img
-            src={`${import.meta.env.BASE_URL}public/GMail.svg`}
+            src={`${import.meta.env.BASE_URL}GMail.svg`}
             alt="Email"
             aria-label="Email"
           />
@@ -33,7 +33,7 @@ function Footer() {
           rel="noopener noreferrer"
         >
           <img
-            src={`${import.meta.env.BASE_URL}public/LinkedIn.svg`}
+            src={`${import.meta.env.BASE_URL}LinkedIn.svg`}
             alt="LinkedIn"
             aria-label="LinkedIn"
           />
@@ -45,7 +45,7 @@ function Footer() {
           rel="noopener noreferrer"
         >
           <img
-            src={`${import.meta.env.BASE_URL}public/GitHub.svg`}
+            src={`${import.meta.env.BASE_URL}GitHub.svg`}
             alt="GitHub"
             aria-label="GitHub"
           />
