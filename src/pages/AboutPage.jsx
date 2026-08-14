@@ -23,7 +23,7 @@ function AboutPage() {
           </p>
           <div className="contact-info">
             <p className="mail">
-              <a href="mailto:daniel@bilkvist.dk">daniel@bilkvist.dk</a>
+              <a href="mailto:danielbilkvist@gmail.com">danielbilkvist@gmail.com</a>
             </p>
             <p className="phone">
               <a href="tel:+4560694929">+45 60694929</a>
