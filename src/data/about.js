@@ -1,16 +1,16 @@
 const about = [
-  {
-    id: 1,
-    title: "Multimedia designer student",
-    description:
-      "I startet studying Multimedia Design at EAAA in 2025.",
-    image: `${import.meta.env.BASE_URL}Kitchen.JPG`,
-  },
+  // {
+  //   id: 1,
+  //   title: "Multimedia designer student",
+  //   description:
+  //     "I startet studying Multimedia Design at EAAA in 2025.",
+  //   image: `${import.meta.env.BASE_URL}Kitchen.JPG`,
+  // },
   {
     id: 2,
     title: "Discover the world",
     description: "I think its super important to experience a wide variety of cultures and ways of life, to easier be able to understand and relate to others. An amazing trait to have when working with User Needs and Experiences ;)",
-    image: `${import.meta.env.BASE_URL}Travel.JPG`,
+    image: `${import.meta.env.BASE_URL}Gade.JPG`,
   },
   {
     id: 3,
@@ -45,13 +45,13 @@ const about = [
     title: "I love going to concerts and discovering new music.",
     description:
       "I was pretty late to discover how important music is to me. Its one of the most powerful ways help strengthen different moods and emotions, which i especially important when im working on different project that require different mindsets.",
-    image: `${import.meta.env.BASE_URL}MockupWanted.png`,
+    image: `${import.meta.env.BASE_URL}Concert.jpg`,
   },
   {
-    id: 7,
+    id: 8,
     title: "Im a collector. And its not just LEGO",
     description:
-      "I collect, In no particular order, CD's, DVD's, ties, belts, Skylanders, Vinyls, Books, Posters, u name it.",
+      "I collect, In no particular order, CD's, Boardgames, DVD's, ties, belts, Skylanders, Vinyls, Books, Posters, u name it.",
     image: `${import.meta.env.BASE_URL}MockupWanted.png`,
   },
 ];

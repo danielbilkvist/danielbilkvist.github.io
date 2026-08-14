@@ -8,12 +8,25 @@ function AboutPage() {
         <p className="profile-info">
           <p className="eyebrow">About me</p>
           <h1>Who am I?</h1>
-          Underneath i have carefully picked pictures from my life, which i
-          think are capable of representing who i was, am and will be.
+          <p className="intro">
+            My name is Daniel Bentzen-Bilkvist, and I am a 23 year old designer and developer from Denmark. I have a passion for creating digital products that are both visually appealing and user-friendly. My goal is to create more than I consume, and I strive to make a positive impact through my work.
+          </p>
+          <div className="contact-info">
+            <p className="mail">
+              <a href="mailto:daniel@bilkvist.dk">daniel@bilkvist.dk</a>
+            </p>
+            <p className="phone">
+              <a href="tel:+4560694929">+45 60694929</a>
+            </p>
+          </div>
+          <p className="outro">
+            Underneath i have carefully picked pictures from my life, which i
+            think are capable of representing who i was, am and will be.
+          </p>
         </p>
         <img
           className="profile-image"
-          src={`${import.meta.env.BASE_URL}public/Deathstar.JPG`}
+          src={`${import.meta.env.BASE_URL}public/Amsterdam.png`}
           alt="Me"
         />
       </div>
