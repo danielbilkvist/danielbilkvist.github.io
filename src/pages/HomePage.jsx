@@ -32,9 +32,9 @@ function HomePage() {
             <Link className="button" to="/projects">
               View Creations
             </Link>
-            <Link className="button secondary" to="/contact">
+            {/* <Link className="button secondary" to="/contact">
               Talk to me
-            </Link>
+            </Link> */}
           </div>
         </section>
         <div className="hero-image">
