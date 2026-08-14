@@ -13,10 +13,10 @@ function Footer() {
         <span className="footer-copyright">© 2026 Daniel Bentzen-Bilkvist</span>
       </div>
 
-      {/* <div className="footer-title">
+      <div className="footer-title">
         <h3>Like what you see?</h3>
-        <h2>et's create something together</h2>
-      </div> */}
+        <h3>Let's create something together!</h3>
+      </div>
 
       <nav className="footer-links" aria-label="Contact links">
         <a href="mailto:danielbilkvist@gmail.com">
