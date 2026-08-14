@@ -20,18 +20,14 @@ function ProjectsPage() {
           >
             <img src={project.image} alt={`Preview af ${project.title}`} />
             <div className="project-card-content">
-              <div className="project-card-content-top">
                 <p className="eyebrow">{project.year}</p>
                 <h3>{project.title}</h3>
                 <p>{project.summary}</p>
-              </div>
-              <div className="project-card-content-bottom">
                 <ul className="tag-list">
                   {project.tags.map((tag) => (
                     <li key={tag}>{tag}</li>
                   ))}
                 </ul>
-              </div>
             </div>
           </Link>
         ))}

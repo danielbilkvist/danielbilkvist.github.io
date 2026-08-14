@@ -3,10 +3,10 @@ const projects = [
     slug: "customer-experience",
     title: "WANTED Archives",
     year: "Customer Experience Project",
-    summary: "En personlig portfolio bygget med React, Vite og GitHub Pages.",
-    description:
-      "WANTED Archives is a fictional clothing brand. The brand identity is created from scratch. Its mostly inspired by rough and urban street fashion, with a touch of wild west vigilante energy. The project is built with React, Vite and deployed on GitHub Pages. The project is a single page application (SPA) with a responsive design.",
-    tags: ["React", "Vite", "GitHub Pages"],
+    summary:
+      "WANTED Archives is a fictional clothing brand. The brand identity is created from scratch. Its mostly inspired by rough and urban street fashion, with a touch of wild west vigilante energy. The project is built with React, Vite and deployed on GitHub Pages. The project is a single page application (SPA) with a responsive design",
+    description: "---",
+    tags: ["Customer Experience/UX", "Brand Identity", "B2C", "Social Media Marketing", "React", "Github Colaboration", "E-commerce"],
     image: `${import.meta.env.BASE_URL}MockupWanted.svg`,
     image2: `${import.meta.env.BASE_URL}MockupHoomie.png`,
     links: [
@@ -14,10 +14,10 @@ const projects = [
         label: "Live site",
         href: "https://magecties.github.io/customer-experience-exam/",
       },
-      {
-        label: "GitHub repo",
-        href: "https://github.com/username/username.github.io",
-      },
+      // {
+      //   label: "GitHub repo",
+      //   href: "https://github.com/username/username.github.io",
+      // },
     ],
   },
   {
@@ -25,14 +25,13 @@ const projects = [
     title: "Spilcaféen",
     year: "Interaction Design Project",
     summary:
-      "Et projektkort, som du kan kopiere og ændre til dit eget projekt.",
-    description:
-      "Beskriv problemet, processen, din rolle, de vigtigste valg og hvad du lærte. Gør projektet konkret, så andre kan forstå dit arbejde.",
-    tags: ["Design", "Frontend", "Proces"],
+      "A redesign of a previous IXD project for Spilcaféen, focused on improving usability, navigation, visual consistency, and responsive design while maintaining the existing brand identity.",
+    description: "---",
+    tags: ["UX/UI & Design", "Figma", "Responsive Design", "Usability", "Navigation", "Visual Consistency", "Design System"],
     image: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
     links: [
       {
-        label: "Eksempel-link",
+        label: "Live Site",
         href: "https://danielbilkvist.github.io/SpilcafeEksamen/",
       },
     ],
@@ -42,14 +41,13 @@ const projects = [
     title: "Hoomie",
     year: "Web App Project",
     summary:
-      "Et projektkort, som du kan kopiere og ændre til dit eget projekt.",
-    description:
-      "Beskriv problemet, processen, din rolle, de vigtigste valg og hvad du lærte. Gør projektet konkret, så andre kan forstå dit arbejde.",
-    tags: ["Design", "Frontend", "Proces"],
+      "Hommie is a web application designed for young adults living with roommates, helping them manage household responsibilities together. The app combines shared chores, shopping lists, and a household calendar to create better structure and transparency. Gamification, points, leaderboards, and the Hoomie mascot make everyday chores more motivating and engaging. The project was developed using UX research, Figma, React, React Router, and Supabase, with a strong focus on usability and simplicity.",
+    description: "---",
+    tags: ["UX/UI & Design", "React", "Supabase", "CRUD", "Figma", "Gamification"],
     image: `${import.meta.env.BASE_URL}MockupHoomie.svg`,
     links: [
       {
-        label: "Eksempel-link",
+        label: "Live Site",
         href: "https://sebbbenator.github.io/hoomie/task",
       },
     ],

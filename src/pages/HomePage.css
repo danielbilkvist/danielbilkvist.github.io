@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Coiny&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 .hero-section {
   display: grid;
   gap: 0.5rem;
@@ -96,7 +96,7 @@ h1 {
   font-size: clamp(2.6rem, 8vw, 5.5rem);
   line-height: 0.95;
   letter-spacing: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   font-weight: 800;
 }
 
@@ -131,7 +131,6 @@ p {
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: 0.5rem;
-  padding: 0 0.5rem;
 }
 
 .button {
@@ -154,25 +153,26 @@ p {
 }
 
 .button.secondary {
-  color: #ffffff;;
+  color: #ffffff;
   background: #111827;
   /* background: transparent; */
 }
 
 .button.secondary:hover {
-transform: scale(1.05);
+  transform: scale(1.05);
   transition: transform 0.1s ease-in-out;
 }
 
-.project-grid {
+.home-page .project-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
 }
 
 .home-page .project-card {
- display: flex;
+  display: flex;
   flex-direction: row;
+  justify-content: space-between;
   align-items: stretch;
   overflow: hidden;
   border: 1px solid #d2e5dc;
@@ -181,19 +181,8 @@ transform: scale(1.05);
   text-decoration: none;
 }
 
-.projects-page .project-card {
-  display: flex;
-  flex-direction: row;
-  align-items: stretch;
-  overflow: hidden;
-  background: transparent;
-  text-decoration: none;
-  border-bottom: 2px solid #e6e5e5;
-  padding: 1.5rem 0;
-}
-
 @media (max-width: 720px) {
-  .project-card {
+  .home-page .project-card {
     flex-direction: column;
   }
 }
@@ -203,23 +192,7 @@ transform: scale(1.05);
   transition: transform 0.1s ease-in-out;
 }
 
-.projects-page .project-card:hover img {
-  transform: scale(1.05);
-  transition: transform 0.1s ease-in-out;
-}
-
-.project-card:nth-child(even) {
-  flex-direction: row-reverse;
-  justify-content: space-between;
-}
-
-@media (max-width: 720px) {
-  .project-card:nth-child(even) {
-    flex-direction: column;
-  }
-}
-
-.project-card img {
+.home-page .project-card img {
   width: 45%;
   height: auto;
   aspect-ratio: 16 / 10;
@@ -227,24 +200,42 @@ transform: scale(1.05);
 }
 
 @media (max-width: 720px) {
-  .project-card img {
+  .home-page .project-card img {
     width: 100%;
     aspect-ratio: 16 / 10;
   }
 }
 
-.project-card-content {
+.home-page .project-card-content {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
   padding: 1.1rem;
-
 }
 
-.project-card a {
+.home-page .project-card a {
   color: #eda53a;
   font-weight: 800;
+}
+
+.home-page .tag-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  padding: 0;
+  margin: 1.25rem 0;
+  list-style: none;
+}
+
+.home-page .tag-list li {
+  border: 1px solid #ded6ca;
+  border-radius: 999px;
+  background: #ffffff;
+  color: #475569;
+  padding: 0.35rem 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 700;
 }
 
 .skills {
