@@ -1,10 +1,10 @@
 function ContactPage() {
   return (
     <div className="page narrow">
-      <p className="eyebrow">Kontakt</p>
-      <h1>Lad os tale sammen.</h1>
+      <p className="eyebrow">Contact</p>
+      <h1>Lets create something together</h1>
       <p className="lead">
-        Tilpas links og mailadresse, så siden peger på dine egne profiler.
+        Feel free to reach out via any of my medias! 
       </p>
 
       <ul className="contact-list">

@@ -1,15 +1,15 @@
 const about = [
   {
     id: 1,
-    title: "Well my name is Daniel",
+    title: "Multimedia designer student",
     description:
-      "I am 23 years old and currently studying as a multimedia designer at EAAA.",
+      "I startet studying Multimedia Design at EAAA in 2025.",
     image: `${import.meta.env.BASE_URL}Kitchen.JPG`,
   },
   {
     id: 2,
-    title: "Two",
-    description: "Description.",
+    title: "Discover the world",
+    description: "I think its super important to experience a wide variety of cultures and ways of life, to easier be able to understand and relate to others. An amazing trait to have when working with User Needs and Experiences ;)",
     image: `${import.meta.env.BASE_URL}Travel.JPG`,
   },
   {
