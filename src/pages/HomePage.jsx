@@ -6,7 +6,7 @@ function HomePage() {
   const featuredProjects = projects.slice(0, 2);
 
   return (
-    <div className="page">
+    <div className="page home-page">
       <section className="hero-full">
         <section className="hero-section">
           <p className="eyebrow">Daniel Bentzen-Bilkvist</p>

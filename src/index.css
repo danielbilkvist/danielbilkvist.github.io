@@ -259,14 +259,14 @@ p {
   list-style: none;
 } */
 
-.project-grid {
+/* .project-grid {
   display: grid;
   grid-template-columns: 1fr;
   gap: 2rem;
-  /* border: 1px solid #e5ddd2;
+  border: 1px solid #e5ddd2;
   border-radius: 0.75rem;
-  background: #fffaf3; */
-}
+  background: #fffaf3; 
+}*/
 
 /* .project-card {
   display: flex;
@@ -285,10 +285,10 @@ p {
   }
 } */
 
-.project-card:hover {
+/* .project-card:hover {
   transform: translateY(-0.25rem);
   transition: transform 0.1s ease-in-out;
-}
+} */
 
 .project-card:nth-child(even) {
   flex-direction: row-reverse;

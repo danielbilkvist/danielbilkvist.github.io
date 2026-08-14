@@ -33,7 +33,7 @@
 .site-nav {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.25rem;
+  gap: 1.5rem;
 }
 
  @media (max-width: 720px) {

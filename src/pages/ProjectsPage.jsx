@@ -4,7 +4,7 @@ import "./ProjectsPage.css";
 
 function ProjectsPage() {
   return (
-    <div className="page">
+    <div className="page projects-page">
       <section className="section-intro">
         <p className="eyebrow">Projects</p>
         <h1>What I Create</h1>

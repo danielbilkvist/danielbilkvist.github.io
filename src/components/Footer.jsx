@@ -10,34 +10,46 @@ function Footer() {
           alt="Signature"
         />
 
-        <span className="footer-copyright">
-          © 2026 Daniel Bentzen-Bilkvist.
-        </span>
+        <span className="footer-copyright">© 2026 Daniel Bentzen-Bilkvist</span>
       </div>
 
+      {/* <div className="footer-title">
+        <h3>Like what you see?</h3>
+        <h2>et's create something together</h2>
+      </div> */}
+
       <nav className="footer-links" aria-label="Contact links">
-        <img
-          src={`${import.meta.env.BASE_URL}public/GMail.svg`}
-          alt="Email"
-          href="mailto:danielbilkvist@gmail.com"
-          aria-label="Email"
-        />
+        <a href="mailto:danielbilkvist@gmail.com">
+          <img
+            src={`${import.meta.env.BASE_URL}public/GMail.svg`}
+            alt="Email"
+            aria-label="Email"
+          />
+        </a>
 
-        <img
-          src={`${import.meta.env.BASE_URL}public/LinkedIn.svg`}
-          alt="LinkedIn"
-          href="https://www.linkedin.com/in/your-profile"
-          aria-label="LinkedIn"
-        />
-
-        <img
-          src={`${import.meta.env.BASE_URL}public/GitHub.svg`}
-          alt="GitHub"
-          href="https://github.com/your-username"
+        <a
+          href="https://www.linkedin.com/in/daniel-bentzen-bilkvist-79b731267/"
           target="_blank"
           rel="noopener noreferrer"
-          aria-label="GitHub"
-        />
+        >
+          <img
+            src={`${import.meta.env.BASE_URL}public/LinkedIn.svg`}
+            alt="LinkedIn"
+            aria-label="LinkedIn"
+          />
+        </a>
+
+        <a
+          href="https://github.com/danielbilkvist"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={`${import.meta.env.BASE_URL}public/GitHub.svg`}
+            alt="GitHub"
+            aria-label="GitHub"
+          />
+        </a>
       </nav>
     </footer>
   );

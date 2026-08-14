@@ -29,7 +29,7 @@ function Navbar() {
         </NavLink>
         <NavLink to="/projects">Creations</NavLink>
         <NavLink to="/about">About Me</NavLink>
-        <NavLink to="/contact">Contact</NavLink>
+        {/* <NavLink to="/contact">Contact</NavLink> */}
       </nav>
     </header>
   );
