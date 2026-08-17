@@ -22,12 +22,8 @@ function AboutPage() {
             think are capable of representing who i was, am and will be.
           </p>
           <div className="contact-info">
-            <p className="mail">
-              <a href="mailto:danielbilkvist@gmail.com">danielbilkvist@gmail.com</a>
-            </p>
-            <p className="phone">
-              <a href="tel:+4560694929">+45 60694929</a>
-            </p>
+              <a className="mail" href="mailto:danielbilkvist@gmail.com">danielbilkvist@gmail.com</a>
+            <a className="phone" href="tel:+4560694929">+45 60694929</a>
           </div>
         </p>
         <img
