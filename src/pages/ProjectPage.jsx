@@ -44,11 +44,11 @@ function ProjectPage() {
       </div>
       </div>
       <p className="lead">{project.summary}</p>
-      <img className="detail-image" src={project.image} alt="" />
+      <img className="detail-image" src={project.image} alt={project.title} loading="lazy" />
 
       {/* <p className="eyebrow">{project.year}</p>
       <p className="lead">{project.description}</p>
-      <img className="detail-image" src={project.image2} alt="" /> */}
+      <img className="detail-image" src={project.image2} alt={project.title} loading="lazy" /> */}
 
       {/* <section className="tag-links">
         <ul className="tag-list">
