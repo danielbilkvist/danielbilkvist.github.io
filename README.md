@@ -1,1 +1,3 @@
-Portfolio by Daniel Bentzen-Bilkvist
+Portfolio by Daniel Bentzen-Bilkvist, Build with React
+
+https://danielbilkvist.github.io/
