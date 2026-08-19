@@ -6,6 +6,7 @@ const projects = [
     summary:
       "WANTED Archives is a fictional clothing brand. The brand identity is created from scratch. Its mostly inspired by rough and urban street fashion, with a touch of wild west vigilante energy. The project is built with React, Vite and deployed on GitHub Pages. The project is a single page application (SPA) with a responsive design",
     description: "---",
+    category: ["Projects"],
     tags: [
       "Customer Experience/UX",
       "Brand Identity",
@@ -35,6 +36,7 @@ const projects = [
     summary:
       "A redesign of a previous IXD project for Spilcaféen, focused on improving usability, navigation, visual consistency, and responsive design while maintaining the existing brand identity.",
     description: "---",
+    category: ["Projects"],
     tags: [
       "UX/UI & Design",
       "Figma",
@@ -59,6 +61,7 @@ const projects = [
     summary:
       "Hommie is a web application designed for young adults living with roommates, helping them manage household responsibilities together. The app combines shared chores, shopping lists, and a household calendar to create better structure and transparency. Gamification, points, leaderboards, and the Hoomie mascot make everyday chores more motivating and engaging. The project was developed using UX research, Figma, React, React Router, and Supabase, with a strong focus on usability and simplicity.",
     description: "---",
+    category: ["Projects"],
     tags: [
       "UX/UI & Design",
       "React",
@@ -83,6 +86,7 @@ const projects = [
     summary:
       "Ive helped  updating different pages, informations and adding new stores to the website.",
     description: "---",
+    category: ["Contributions"],
     tags: ["Wordpress", "Elementor"],
     image: `${import.meta.env.BASE_URL}Takenow.png`,
     links: [
@@ -99,6 +103,7 @@ const projects = [
     summary:
       "Ive helped develop the website for Unyttigt.dk. Helping with layout, design and adding products and stock to the shopify page.",
     description: "---",
+    category: ["Contributions"],
     tags: ["Shopify"],
     image: `${import.meta.env.BASE_URL}Unyttigt.png`,
     links: [
@@ -115,6 +120,7 @@ const projects = [
     summary:
       "Ive helped develop the website for Bedsteven.dk. Helping with layout, design and adding products and stock to the shopify page.",
     description: "---",
+    category: ["Contributions"],
     tags: ["Shopify"],
     image: `${import.meta.env.BASE_URL}Bedsteven.png`,
     links: [
