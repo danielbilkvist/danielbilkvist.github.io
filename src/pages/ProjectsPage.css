@@ -50,7 +50,7 @@
 }
 
 .projects-page .project-card a {
-  color: #eda53a;
+  color: var(--primary);
   font-weight: 800;
 }
 
