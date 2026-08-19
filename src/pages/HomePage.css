@@ -131,6 +131,7 @@ p {
   flex-wrap: wrap;
   gap: 0.75rem;
   margin-top: 0.5rem;
+  margin-left: 0.5rem;
 }
 
 .button {
@@ -148,7 +149,7 @@ p {
 }
 
 .button:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   transition: transform 0.1s ease-in-out;
 }
 
@@ -159,7 +160,7 @@ p {
 }
 
 .button.secondary:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
   transition: transform 0.1s ease-in-out;
 }
 

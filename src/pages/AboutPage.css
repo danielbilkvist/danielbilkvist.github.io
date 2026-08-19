@@ -25,6 +25,43 @@
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
-    gap: 0.5rem;
+    gap: 1rem;
+    padding: 0 0.5rem
+}
+
+.phone {
+    display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  border: 1px solid #111827;
+  border-radius: 999px;
+  color: #111827;
+  background: #ffffff;
+  padding: 0.7rem 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.phone:hover {
+    transform: scale(1.03);
+}
+
+.mail {
+   display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 2.75rem;
+  border: 1px solid #111827;
+  border-radius: 999px;
+  color: #111827;
+  background: #ffffff;
+  padding: 0.7rem 1rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.mail:hover {
+    transform: scale(1.03);
 }
 

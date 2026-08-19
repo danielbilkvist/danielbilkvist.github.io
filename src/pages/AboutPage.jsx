@@ -12,7 +12,7 @@ function AboutPage() {
             {/* My name is Daniel Bentzen-Bilkvist, and I am a 23 year old designer and developer from Denmark. I have a passion for creating digital products that are both visually appealing and user-friendly. My goal is to create more than I consume, and I strive to make a positive impact through my work. */}
             My name is Daniel Bentzen-Bilkvist and I was born in 2003. I am
             currently living in Aarhus, Denmark, where i startet studying at
-            EAAA, to become a Multiumedia Designer by 2027. I love the concept
+            EAAA, to become a Multimedia Designer by 2027. I love the concept
             of bringing my ideas to life, wether its through coding a website,
             designing a poster or creating fictional stories.
           </p>
@@ -22,12 +22,8 @@ function AboutPage() {
             think are capable of representing who i was, am and will be.
           </p>
           <div className="contact-info">
-            <p className="mail">
-              <a href="mailto:danielbilkvist@gmail.com">danielbilkvist@gmail.com</a>
-            </p>
-            <p className="phone">
-              <a href="tel:+4560694929">+45 60694929</a>
-            </p>
+              <a className="mail" href="mailto:danielbilkvist@gmail.com">danielbilkvist@gmail.com</a>
+            <a className="phone" href="tel:+4560694929">+45 60694929</a>
           </div>
         </p>
         <img
