@@ -7,14 +7,10 @@ function AboutPage() {
       <div className="profile">
         <p className="profile-info">
           <p className="eyebrow">About me</p>
-          <h1>Who am I?</h1>
+          <h1>Who am i?</h1>
           <p className="intro">
             {/* My name is Daniel Bentzen-Bilkvist, and I am a 23 year old designer and developer from Denmark. I have a passion for creating digital products that are both visually appealing and user-friendly. My goal is to create more than I consume, and I strive to make a positive impact through my work. */}
-            My name is Daniel Bentzen-Bilkvist and I was born in 2003. I am
-            currently living in Aarhus, Denmark, where i startet studying at
-            EAAA, to become a Multimedia Designer by 2027. I love the concept
-            of bringing my ideas to life, wether its through coding a website,
-            designing a poster or creating fictional stories.
+            I am a danish UI/UX designer based in Aarhus. Currently i am studying at EAAA to become a Multimedia Designer by 2027. I love the concept of bringing my ideas to life, wether its through graphic design, coding a website, or creating fictional stories.
           </p>
 
           <p className="outro">
