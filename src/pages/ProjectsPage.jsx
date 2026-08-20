@@ -25,7 +25,7 @@ function ProjectsPage() {
         <h1>What I Create</h1>
         {/* <p>Discover my projects, workflows and small experiments</p> */}
 
-        <div className="project-filter">
+        <div className="project-filters">
           {categories.map((category) => (
             <button
             className={selectedCategory === category ? "active" : ""}
