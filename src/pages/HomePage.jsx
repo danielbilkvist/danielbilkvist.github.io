@@ -12,18 +12,9 @@ function HomePage() {
           <p className="eyebrow">Daniel Bentzen-Bilkvist</p>
           <h1>Create more than you consume</h1>
           <div className="skills">
-            <img
-              src={`${import.meta.env.BASE_URL}Figma.svg`}
-              alt="Figma"
-            />
-            <img
-              src={`${import.meta.env.BASE_URL}React.svg`}
-              alt="React"
-            />
-            <img
-              src={`${import.meta.env.BASE_URL}Adobe.svg`}
-              alt="Adobe"
-            />
+            <img src={`${import.meta.env.BASE_URL}Figma.svg`} alt="Figma" />
+            <img src={`${import.meta.env.BASE_URL}React.svg`} alt="React" />
+            <img src={`${import.meta.env.BASE_URL}Adobe.svg`} alt="Adobe" />
           </div>
           {/* <p className="hero-text">UI/UX Design | React Coding | Figma Prototyping</p> */}
           {/* <p className="hero-text">UI/UX Design | Social Media Marketing</p>
@@ -38,10 +29,7 @@ function HomePage() {
           </div>
         </section>
         <div className="hero-image">
-          <img
-            src={`${import.meta.env.BASE_URL}Daniel.png`}
-            alt="Hero"
-          />
+          <img src={`${import.meta.env.BASE_URL}Daniel.png`} alt="Hero" />
         </div>
       </section>
 

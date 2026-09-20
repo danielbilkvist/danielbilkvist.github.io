@@ -2,6 +2,7 @@
     position: relative;
     display: flex;
     flex-direction: row;
+    gap: 2rem;
 }
 
 @media (max-width: 850px) {
@@ -34,10 +35,10 @@
   align-items: center;
   justify-content: center;
   min-height: 2.75rem;
-  border: 1px solid #111827;
+  border: 1px solid var(--text);
   border-radius: 999px;
-  color: #111827;
-  background: #ffffff;
+  color: var(--text);
+  background: var(--bg);
   padding: 0.7rem 1rem;
   font-weight: 700;
   text-decoration: none;
@@ -52,10 +53,10 @@
   align-items: center;
   justify-content: center;
   min-height: 2.75rem;
-  border: 1px solid #111827;
+  border: 1px solid var(--text);
   border-radius: 999px;
-  color: #111827;
-  background: #ffffff;
+  color: var(--text);
+  background: var(--bg);
   padding: 0.7rem 1rem;
   font-weight: 700;
   text-decoration: none;

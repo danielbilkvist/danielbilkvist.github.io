@@ -50,7 +50,7 @@
 }
 
 .projects-page .project-card a {
-  color: #eda53a;
+  color: var(--primary);
   font-weight: 800;
 }
 
@@ -71,6 +71,29 @@
   padding: 0.35rem 0.7rem;
   font-size: 0.9rem;
   font-weight: 700;
+}
+
+.projects-page .project-filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  margin: 0rem 0;
+}
+
+.projects-page .project-filters button {
+  border: 1px solid transparent;
+  border-radius: 999px;
+  background: transparent;
+  color: var(--text);
+  padding: 0rem 0rem;
+  cursor: pointer;
+}
+
+.projects-page .project-filters button:hover,
+.projects-page .project-filters button.active {
+  border-color: transparent;
+  background: transparent;
+  color: var(--primary);
 }
 
 /* .section-intro{
