@@ -45,7 +45,7 @@ justify-content: stretch;
 /* Scroll Column */
 
 .navigationColumn {
-  height: 100%;
+  height: 100vh;
 
   display: flex;
   flex-direction: column;
@@ -57,13 +57,12 @@ justify-content: stretch;
 
 .navigationWindow {
   width: 100%;
-  height: 600px;
+  height: 100%;
 
   overflow: hidden;
 
   position: relative;
 }
-
 
 .projectTrack {
   display: flex;
@@ -71,9 +70,6 @@ justify-content: stretch;
 
   transition: transform 0.45s cubic-bezier(0.65, 0, 0.35, 1);
 
-  /*
-   * Every project is exactly 120px tall.
-   */
   will-change: transform;
 }
 
@@ -111,7 +107,7 @@ justify-content: stretch;
 
 .projectItem.active {
   opacity: 1;
-  transform: scale(1.08);
+  transform: scale(1.2);
 }
 
 .thumbnail {

@@ -66,7 +66,7 @@ function ProjectScroller({ projects }) {
         </ul>
       </div>
 
-      {/* MIDDLE — infinite project list */}
+      {/* MIDDLE */}
       <div className={styles.navigationColumn}>
         <div className={styles.navigationWindow}>
           <div
