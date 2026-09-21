@@ -44,27 +44,35 @@ const projects = [
       "Design System",
     ],
     thumbnail: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
+    title1: "Evaluating the existing prototype",
     image1: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
     process1:
       "First i evaluated the existing protoype using Heuristic Evaluation to identify usability and design issues. The most common issues were related to Visibility of System Status and Consistency and Standards. The evaluation showed me where i had to proritize my work and make improvements to the design.",
+    title2: "Task Flow and User Journey",
     image2: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
     process2:
       "Following the first step i formed a Task Flow to identify the central function that had to be improved. My main focus landed on the login page, game cards, profile functions and favorite library. The Task Flow made the users path through the website clear.",
+    title3: "Low-Fidelity Wireframes",
     image3: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
     process3:
       "It was now possible to create Low-Fidelity wireframes based on the previous prototype and the newly formed Task Flow. Figma was used for the wireframing and formed the visual process of the users journey.",
+    title4: "First Prototype",
     image4: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
     process4:
       "From the Low-Fidelity wireframes i created the first Prototype. It combines all of the new learnings with the previous design. Key changes was a constant Navigation bar which was always accesible for the user. As well as a clear indicator of the users current Location.",
+    title5: "User Tests",
     image5: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
     process5:
       "The new design was exposed to numerous Think Aloud Tests to make sure the new navigation and usability was clear and easy for users to understand. The test showed new issues with button touch points which was fixed for the final design.",
+    title6: "A conmsistent Design System",
     image6: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
     process6:
       "To prepare for the final design i created a Design System to make sure the visual identity was consistent across the entire website. The Design System included colors, typography, buttons, icons and other visual elements that were used throughout the website.",
+    title7: "Final Prototype",
     image7: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
     process7:
       "When designing the final protype UX-Laws like Jakobs Law, Fitts Law and Gestalt principles were used to make sure the design stayed intuitve and user friendly.",
+    title8: "Final Product",
     image8: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
     process8:
       "The final design was translated to a working Website using HTML, CSS and JavaScript. The website was built with a responsive design to make sure it worked on all devices.",

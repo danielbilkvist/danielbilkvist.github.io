@@ -7,6 +7,20 @@
 
 .process-step {
   display: grid;
+  gap: 1rem;
+}
+
+.process-step-heading h2 {
+  margin: 0;
+  font-size: clamp(1rem, 1.4vw, 1.35rem);
+}
+
+.process-step-heading .eyebrow {
+  margin-bottom: 0.35rem;
+}
+
+.process-step-row {
+  display: grid;
   grid-template-columns: minmax(8rem, 14rem) minmax(0, 1fr);
   align-items: start;
   gap: 1.5rem;
@@ -28,7 +42,7 @@
 }
 
 @media (max-width: 600px) {
-  .process-step {
+  .process-step-row {
     grid-template-columns: 1fr;
   }
 
