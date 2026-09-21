@@ -36,7 +36,7 @@ function HomePage() {
       <section className="section">
         <div className="section-heading">
           <p className="eyebrow">You might also like:</p>
-          <h2>Featured Projects</h2>
+          <h2>Featured Creations</h2>
         </div>
 
         <div className="project-grid">

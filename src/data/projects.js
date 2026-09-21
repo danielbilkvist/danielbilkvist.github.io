@@ -153,6 +153,24 @@ const projects = [
   },
 
   {
+    slug: "WantedArchivesInstagram",
+    title: "Wanted Archives Instagram",
+    year: "Social Media",
+    summary:
+      "As part of the Wanted Archives Project, a social media profile was made for Instagram. Its purpose was to show how the fictional brand would be branded and marketed on social media through posts and stories.",
+    description: "---",
+    category: ["Minor Creations"],
+    tags: ["Social Media Marketing", "Instagram", "Branding", ],
+    thumbnail: `${import.meta.env.BASE_URL}process/WantedInsta.png`,
+    links: [
+      {
+        label: "Instagram",
+        href: "https://www.instagram.com/wanted.archives/",
+      },
+    ],
+  },
+
+  {
     slug: "takenow",
     title: "TakeNOW.dk",
     year: "Website Contribution",
