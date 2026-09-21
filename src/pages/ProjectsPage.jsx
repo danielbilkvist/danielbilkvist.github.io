@@ -15,7 +15,7 @@ function ProjectsPage() {
     selectedCategory === "All"
       ? projects
       : projects.filter((project) =>
-          project.category.includes(selectedCategory)
+          project.category.includes(selectedCategory),
         );
 
   return (
@@ -28,15 +28,15 @@ function ProjectsPage() {
         <div className={styles.filters}>
           {categories.map((category) => (
             <button
-            className={selectedCategory === category ? styles.active : ""}
-            key={category}
-            type="button"
-            onClick={() => setSelectedCategory(category)}
+              className={selectedCategory === category ? styles.active : ""}
+              key={category}
+              type="button"
+              onClick={() => setSelectedCategory(category)}
             >
-            {category}
-          </button>
-        ))}
-      </div>
+              {category}
+            </button>
+          ))}
+        </div>
       </section>
 
       <section className={styles.grid} aria-label="Projektliste">
@@ -48,14 +48,14 @@ function ProjectsPage() {
           >
             <img src={project.thumbnail} alt={`Preview af ${project.title}`} />
             <div className={styles.cardContent}>
-                <p className="eyebrow">{project.year}</p>
-                <h3>{project.title}</h3>
-                <p>{project.summary}</p>
-                <ul className="tag-list">
-                  {project.tags.map((tag) => (
-                    <li key={tag}>{tag}</li>
-                  ))}
-                </ul>
+              <p className="eyebrow">{project.year}</p>
+              <h3>{project.title}</h3>
+              <p>{project.summary}</p>
+              <ul className="tag-list">
+                {project.tags.map((tag) => (
+                  <li key={tag}>{tag}</li>
+                ))}
+              </ul>
             </div>
           </Link>
         ))}

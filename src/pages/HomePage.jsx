@@ -45,7 +45,10 @@ function HomePage() {
               className={styles.projectCard}
               key={project.slug}
             >
-              <img src={project.thumbnail} alt={`Preview af ${project.title}`} />
+              <img
+                src={project.thumbnail}
+                alt={`Preview af ${project.title}`}
+              />
               <div className={styles.projectCardContent}>
                 <div>
                   <p className="eyebrow">{project.year}</p>

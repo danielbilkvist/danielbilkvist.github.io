@@ -16,7 +16,9 @@ function Footer() {
 
       <div className={styles.title}>
         <h3 className={styles.titleHeading}>Like what you see?</h3>
-        <h3 className={styles.titleHeading}>Let's create something together!</h3>
+        <h3 className={styles.titleHeading}>
+          Let's create something together!
+        </h3>
       </div>
 
       <nav className={styles.links} aria-label="Contact links">

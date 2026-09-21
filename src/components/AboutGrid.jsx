@@ -17,7 +17,7 @@ function AboutGrid() {
           key={item.id}
           onClick={() => handleClick(item.id)}
         >
-          <img src={item.image} alt={item.title} loading="lazy"/>
+          <img src={item.image} alt={item.title} loading="lazy" />
 
           <div className={styles.overlay}>
             <h2 className={styles.title}>{item.title}</h2>
