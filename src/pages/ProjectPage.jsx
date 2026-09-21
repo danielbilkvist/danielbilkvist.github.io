@@ -29,28 +29,30 @@ function ProjectPage() {
         <div className="project-title">
           <p className="eyebrow">{project.year}</p>
           <h1>{project.title}</h1>
-        </div>
-        <div className="actions">
-          {project.links.map((link) => (
-            <a
-              className="button secondary"
-              href={link.href}
-              key={link.href}
-              rel="noreferrer"
-              target="_blank"
-            >
-              {link.label}
-            </a>
-          ))}
+          <div className="actions">
+            {project.links.map((link) => (
+              <a
+                className="button"
+                href={link.href}
+                key={link.href}
+                rel="noreferrer"
+                target="_blank"
+              >
+                {link.label}
+              </a>
+            ))}
+          </div>
         </div>
       </div>
-      <p className="lead">{project.summary}</p>
-      <img
-        className="detail-image"
-        src={project.thumbnail}
-        alt={project.title}
-        loading="lazy"
-      />
+      <div className="project-lead-row">
+        <p className="lead">{project.summary}</p>
+        <img
+          className="detail-image"
+          src={project.thumbnail}
+          alt={project.title}
+          loading="lazy"
+        />
+      </div>
 
       <ProcessSteps project={project} />
 

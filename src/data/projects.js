@@ -52,6 +52,10 @@ const projects = [
         label: "Live Site",
         href: "https://danielbilkvist.github.io/SpilcafeEksamen/",
       },
+      {
+        label: "Github Repo",
+        href: "https://danielbilkvist.github.io/SpilcafeEksamen/",
+      },
     ],
   },
   {
