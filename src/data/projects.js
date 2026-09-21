@@ -31,7 +31,7 @@ const projects = [
     title: "Spilcaféen",
     year: "Interaction Design Project",
     summary:
-      "A redesign of a previous IXD project for Spilcaféen, focused on improving usability, navigation, visual consistency, and responsive design while maintaining the existing brand identity.",
+      "Spilcaféen is a redesign and development project based on a previous 1st-semester project. The goal was to improve the websites usability, navigation and visual consistency.",
     description: "---",
     category: ["Projects"],
     tags: [
@@ -46,7 +46,28 @@ const projects = [
     thumbnail: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
     image1: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
     process1:
-      "Research the existing experience and identify opportunities for improvement.",
+      "First i evaluated the existing protoype using Heuristic Evaluation to identify usability and design issues. The most common issues were related to Visibility of System Status and Consistency and Standards. The evaluation showed me where i had to proritize my work and make improvements to the design.",
+    image2: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
+    process2:
+      "Following the first step i formed a Task Flow to identify the central function that had to be improved. My main focus landed on the login page, game cards, profile functions and favorite library. The Task Flow made the users path through the website clear.",
+    image3: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
+    process3:
+      "It was now possible to create Low-Fidelity wireframes based on the previous prototype and the newly formed Task Flow. Figma was used for the wireframing and formed the visual process of the users journey.",
+    image4: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
+    process4:
+      "From the Low-Fidelity wireframes i created the first Prototype. It combines all of the new learnings with the previous design. Key changes was a constant Navigation bar which was always accesible for the user. As well as a clear indicator of the users current Location.",
+    image5: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
+    process5:
+      "The new design was exposed to numerous Think Aloud Tests to make sure the new navigation and usability was clear and easy for users to understand. The test showed new issues with button touch points which was fixed for the final design.",
+    image6: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
+    process6:
+      "To prepare for the final design i created a Design System to make sure the visual identity was consistent across the entire website. The Design System included colors, typography, buttons, icons and other visual elements that were used throughout the website.",
+    image7: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
+    process7:
+      "When designing the final protype UX-Laws like Jakobs Law, Fitts Law and Gestalt principles were used to make sure the design stayed intuitve and user friendly.",
+    image8: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
+    process8:
+      "The final design was translated to a working Website using HTML, CSS and JavaScript. The website was built with a responsive design to make sure it worked on all devices.",
     links: [
       {
         label: "Live Site",
