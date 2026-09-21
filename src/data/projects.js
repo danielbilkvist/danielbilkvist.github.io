@@ -18,6 +18,7 @@ const projects = [
     ],
     thumbnail: `${import.meta.env.BASE_URL}MockupWanted.svg`,
     image1: `${import.meta.env.BASE_URL}MockupHoomie.png`,
+    process1: "Define the project direction, audience, and visual identity.",
     links: [
       {
         label: "Live site",
@@ -43,6 +44,9 @@ const projects = [
       "Design System",
     ],
     thumbnail: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
+    image1: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
+    process1:
+      "Research the existing experience and identify opportunities for improvement.",
     links: [
       {
         label: "Live Site",
@@ -67,12 +71,15 @@ const projects = [
       "Gamification",
     ],
     thumbnail: `${import.meta.env.BASE_URL}MockupHoomie.svg`,
+    image1: `${import.meta.env.BASE_URL}MockupHoomie.svg`,
+    process1: "Explore the users' needs and shape the core product experience.",
     links: [
       {
         label: "Live Site",
         href: "https://sebbbenator.github.io/hoomie/task",
       },
     ],
+    image1: `${import.meta.env.BASE_URL}Takenow.png`,
   },
 
   {
@@ -85,12 +92,15 @@ const projects = [
     category: ["Contributions"],
     tags: ["Wordpress", "Elementor"],
     thumbnail: `${import.meta.env.BASE_URL}Takenow.png`,
+    process1:
+      "Review the existing website and identify the pages that need updating.",
     links: [
       {
         label: "Website",
         href: "https://takenow.dk/",
       },
     ],
+    image1: `${import.meta.env.BASE_URL}Unyttigt.png`,
   },
   {
     slug: "unyttigt",
@@ -102,12 +112,14 @@ const projects = [
     category: ["Contributions"],
     tags: ["Shopify"],
     thumbnail: `${import.meta.env.BASE_URL}Unyttigt.png`,
+    process1: "Plan the layout, product presentation, and content structure.",
     links: [
       {
         label: "Website",
         href: "https://unyttigt.dk/",
       },
     ],
+    image1: `${import.meta.env.BASE_URL}Bedsteven.png`,
   },
   {
     slug: "bedsteven",
@@ -119,6 +131,8 @@ const projects = [
     category: ["Contributions"],
     tags: ["Shopify"],
     thumbnail: `${import.meta.env.BASE_URL}Bedsteven.png`,
+    process1:
+      "Review the shop structure and improve the presentation of products and content.",
     links: [
       {
         label: "Website",

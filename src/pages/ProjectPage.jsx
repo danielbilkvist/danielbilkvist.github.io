@@ -1,5 +1,6 @@
 import { Link, useParams } from "react-router";
 import projects from "../data/projects";
+import ProcessSteps from "../components/ProcessSteps";
 import "./ProjectPage.css";
 
 function ProjectPage() {
@@ -25,26 +26,33 @@ function ProjectPage() {
         Go back
       </Link> */}
       <div className="top-project-content">
-      <div className="project-title">
-      <p className="eyebrow">{project.year}</p>
-      <h1>{project.title}</h1>
-      </div>
-      <div className="actions">
-        {project.links.map((link) => (
-          <a
-            className="button secondary"
-            href={link.href}
-            key={link.href}
-            rel="noreferrer"
-            target="_blank"
-          >
-            {link.label}
-          </a>
-        ))}
-      </div>
+        <div className="project-title">
+          <p className="eyebrow">{project.year}</p>
+          <h1>{project.title}</h1>
+        </div>
+        <div className="actions">
+          {project.links.map((link) => (
+            <a
+              className="button secondary"
+              href={link.href}
+              key={link.href}
+              rel="noreferrer"
+              target="_blank"
+            >
+              {link.label}
+            </a>
+          ))}
+        </div>
       </div>
       <p className="lead">{project.summary}</p>
-      <img className="detail-image" src={project.thumbnail} alt={project.title} loading="lazy" />
+      <img
+        className="detail-image"
+        src={project.thumbnail}
+        alt={project.title}
+        loading="lazy"
+      />
+
+      <ProcessSteps project={project} />
 
       {/* <p className="eyebrow">{project.year}</p>
       <p className="lead">{project.description}</p>

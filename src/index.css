@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Coiny&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
 :root {
   --primary: #eda53a;
   --primary-dark: #b47c2a;
@@ -195,7 +198,11 @@ textarea {
 
 h1,
 h2,
-h3,
+h3 {
+  font-family: "Montserrat", sans-serif;
+  margin-top: 0;
+}
+
 p {
   margin-top: 0;
 }
