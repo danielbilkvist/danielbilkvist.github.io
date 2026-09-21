@@ -1,12 +1,7 @@
+@import "./variables.css";
 @import url("https://fonts.googleapis.com/css2?family=Coiny&family=Lobster&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
 
 :root {
-  --primary: #eda53a;
-  --primary-dark: #b47c2a;
-  --bg: #f7f4ef;
-  --text: #242424;
-  --text-light: #526173;
-
   font-family: "Montserrat", sans-serif;
   color: var(--text);
   background: var(--bg);
@@ -39,6 +34,14 @@ button,
 input,
 textarea {
   font: inherit;
+}
+
+.app {
+  min-height: 100%;
+}
+
+:global(#root) {
+  min-height: 100%;
 }
 
 .page {

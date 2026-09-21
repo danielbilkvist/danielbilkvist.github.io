@@ -1,5 +1,4 @@
 import { Route, Routes } from "react-router";
-import styles from "./App.module.css";
 import Footer from "./components/Footer";
 import Navbar from "./components/Navbar";
 import AboutPage from "./pages/AboutPage";
@@ -11,7 +10,7 @@ import ProjectsPage from "./pages/ProjectsPage";
 
 function App() {
   return (
-    <div className={styles.app}>
+    <div className="App">
       <Navbar />
       <main>
         <Routes>
