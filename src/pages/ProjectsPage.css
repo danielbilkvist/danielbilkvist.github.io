@@ -78,22 +78,30 @@
   flex-wrap: wrap;
   gap: 1rem;
   margin: 0rem 0;
+  margin-bottom: 2rem;
 }
 
 .projects-page .project-filters button {
   border: 1px solid transparent;
-  border-radius: 999px;
   background: transparent;
   color: var(--text);
-  padding: 0rem 0rem;
+  padding: 0rem 1rem;
   cursor: pointer;
 }
 
-.projects-page .project-filters button:hover,
-.projects-page .project-filters button.active {
+.projects-page .project-filters button:hover {
   border-color: transparent;
   background: transparent;
-  color: var(--primary);
+  border-bottom: 2px solid var(--primary);
+}
+
+.projects-page .project-filters button.active
+{
+  border-color: transparent;
+  background: transparent;
+  color: var(--text);
+  font-weight: 700;
+  border-bottom: 2px solid var(--primary);
 }
 
 /* .section-intro{
