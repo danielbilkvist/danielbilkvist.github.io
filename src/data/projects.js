@@ -16,17 +16,13 @@ const projects = [
       "Github Colaboration",
       "E-commerce",
     ],
-    image: `${import.meta.env.BASE_URL}MockupWanted.svg`,
-    image2: `${import.meta.env.BASE_URL}MockupHoomie.png`,
+    thumbnail: `${import.meta.env.BASE_URL}MockupWanted.svg`,
+    image1: `${import.meta.env.BASE_URL}MockupHoomie.png`,
     links: [
       {
         label: "Live site",
         href: "https://magecties.github.io/customer-experience-exam/",
       },
-      // {
-      //   label: "GitHub repo",
-      //   href: "https://github.com/username/username.github.io",
-      // },
     ],
   },
   {
@@ -46,7 +42,7 @@ const projects = [
       "Visual Consistency",
       "Design System",
     ],
-    image: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
+    thumbnail: `${import.meta.env.BASE_URL}MockupSpilcafe.svg`,
     links: [
       {
         label: "Live Site",
@@ -70,7 +66,7 @@ const projects = [
       "Figma",
       "Gamification",
     ],
-    image: `${import.meta.env.BASE_URL}MockupHoomie.svg`,
+    thumbnail: `${import.meta.env.BASE_URL}MockupHoomie.svg`,
     links: [
       {
         label: "Live Site",
@@ -88,7 +84,7 @@ const projects = [
     description: "---",
     category: ["Contributions"],
     tags: ["Wordpress", "Elementor"],
-    image: `${import.meta.env.BASE_URL}Takenow.png`,
+    thumbnail: `${import.meta.env.BASE_URL}Takenow.png`,
     links: [
       {
         label: "Website",
@@ -105,7 +101,7 @@ const projects = [
     description: "---",
     category: ["Contributions"],
     tags: ["Shopify"],
-    image: `${import.meta.env.BASE_URL}Unyttigt.png`,
+    thumbnail: `${import.meta.env.BASE_URL}Unyttigt.png`,
     links: [
       {
         label: "Website",
@@ -122,7 +118,7 @@ const projects = [
     description: "---",
     category: ["Contributions"],
     tags: ["Shopify"],
-    image: `${import.meta.env.BASE_URL}Bedsteven.png`,
+    thumbnail: `${import.meta.env.BASE_URL}Bedsteven.png`,
     links: [
       {
         label: "Website",

@@ -93,7 +93,7 @@ function ProjectScroller({ projects }) {
                   }}
                 >
                   <img
-                    src={project.image}
+                    src={project.thumbnail}
                     alt=""
                     className={styles.thumbnail}
                   />
@@ -113,7 +113,7 @@ function ProjectScroller({ projects }) {
             to={`/projects/${activeProject.slug}`}
           >
             <img
-              src={activeProject.image}
+              src={activeProject.thumbnail}
               alt={activeProject.title}
               className={styles.mainImage}
             />

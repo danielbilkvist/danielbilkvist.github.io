@@ -6,7 +6,7 @@ function Footer() {
       <div className="footer-brand">
         <img
           className="brand-footer"
-          src={`${import.meta.env.BASE_URL}LogoBlockWhite.svg`}
+          src={`${import.meta.env.BASE_URL}LogoB.svg`}
           alt="Signature"
         />
 
@@ -14,8 +14,8 @@ function Footer() {
       </div>
 
       <div className="footer-title">
-        <h3>Like what you see?</h3>
-        <h3>Let's create something together!</h3>
+        <h3 className="footer-title">Like what you see?</h3>
+        <h3 className="footer-title">Let's create something together!</h3>
       </div>
 
       <nav className="footer-links" aria-label="Contact links">

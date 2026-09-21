@@ -14,6 +14,12 @@
   align-items: center;
 }
 
+.footer-brand img {
+  width: 5rem;
+  height: auto;
+  margin-bottom: 0.5rem;
+}
+
 .brand-footer {
   width: 10rem;
   height: auto;

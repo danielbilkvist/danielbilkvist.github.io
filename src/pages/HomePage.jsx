@@ -1,6 +1,7 @@
 import { Link } from "react-router";
 import projects from "../data/projects";
 import "./HomePage.css";
+import footer from "../components/Footer";
 
 function HomePage() {
   const featuredProjects = projects.slice(0, 2);
@@ -32,7 +33,6 @@ function HomePage() {
           <img src={`${import.meta.env.BASE_URL}Daniel.png`} alt="Hero" />
         </div>
       </section>
-
       <section className="section">
         <div className="section-heading">
           <p className="eyebrow">You might also like:</p>
@@ -46,7 +46,7 @@ function HomePage() {
               className="project-card"
               key={project.slug}
             >
-              <img src={project.image} alt={`Preview af ${project.title}`} />
+              <img src={project.thumbnail} alt={`Preview af ${project.title}`} />
               <div className="project-card-content">
                 <div className="project-card-content-top">
                   <p className="eyebrow">{project.year}</p>

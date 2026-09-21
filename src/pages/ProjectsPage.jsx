@@ -46,7 +46,7 @@ function ProjectsPage() {
             className="project-card"
             key={project.slug}
           >
-            <img src={project.image} alt={`Preview af ${project.title}`} />
+            <img src={project.thumbnail} alt={`Preview af ${project.title}`} />
             <div className="project-card-content">
                 <p className="eyebrow">{project.year}</p>
                 <h3>{project.title}</h3>
