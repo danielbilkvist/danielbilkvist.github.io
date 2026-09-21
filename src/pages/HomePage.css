@@ -140,7 +140,7 @@ p {
   justify-content: center;
   min-height: 2.75rem;
   border: 1px solid var(--text);
-  border-radius: 999px;
+  border-radius: 0px;
   color: var(--text);
   background: var(--bg);
   padding: 0.7rem 1rem;
@@ -177,7 +177,7 @@ p {
   align-items: stretch;
   overflow: hidden;
   border: 1px solid #d2e5dc;
-  border-radius: 0.75rem;
+  border-radius: 0rem;
   background: #fffaf3;
   text-decoration: none;
 }
@@ -231,7 +231,7 @@ p {
 
 .home-page .tag-list li {
   border: 1px solid #ded6ca;
-  border-radius: 999px;
+  border-radius: 0px;
   background: #ffffff;
   color: #475569;
   padding: 0.35rem 0.7rem;

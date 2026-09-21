@@ -65,7 +65,7 @@
 
 .projects-page .tag-list li {
   border: 1px solid #ded6ca;
-  border-radius: 999px;
+  border-radius: 0px;
   background: #ffffff;
   color: #475569;
   padding: 0.35rem 0.7rem;
