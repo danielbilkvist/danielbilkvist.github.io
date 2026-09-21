@@ -1,7 +1,7 @@
 import { Link, useParams } from "react-router";
 import projects from "../data/projects";
 import ProcessSteps from "../components/ProcessSteps";
-import "./ProjectPage.css";
+import styles from "./ProjectPage.module.css";
 
 function ProjectPage() {
   const { slug } = useParams();
@@ -25,7 +25,7 @@ function ProjectPage() {
       {/* <Link className="back-link" to="/projects">
         Go back
       </Link> */}
-      <div className="top-project-content">
+      <div className={styles.topContent}>
         <div className="project-title">
           <p className="eyebrow">{project.year}</p>
           <h1>{project.title}</h1>
@@ -44,10 +44,10 @@ function ProjectPage() {
           </div>
         </div>
       </div>
-      <div className="project-lead-row">
+      <div className={styles.leadRow}>
         <p className="lead">{project.summary}</p>
         <img
-          className="detail-image"
+          className={styles.detailImage}
           src={project.thumbnail}
           alt={project.title}
           loading="lazy"

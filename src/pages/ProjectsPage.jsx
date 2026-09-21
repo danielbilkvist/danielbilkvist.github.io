@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link } from "react-router";
 import projects from "../data/projects";
-import "./ProjectsPage.css";
+import styles from "./ProjectsPage.module.css";
 
 function ProjectsPage() {
   const [selectedCategory, setSelectedCategory] = useState("All");
@@ -19,16 +19,16 @@ function ProjectsPage() {
         );
 
   return (
-    <div className="page projects-page">
-      <section className="section-intro">
+    <div className="page">
+      <section className={styles.intro}>
         <p className="eyebrow">Projects</p>
         <h1>What I Create</h1>
         {/* <p>Discover my projects, workflows and small experiments</p> */}
 
-        <div className="project-filters">
+        <div className={styles.filters}>
           {categories.map((category) => (
             <button
-            className={selectedCategory === category ? "active" : ""}
+            className={selectedCategory === category ? styles.active : ""}
             key={category}
             type="button"
             onClick={() => setSelectedCategory(category)}
@@ -39,15 +39,15 @@ function ProjectsPage() {
       </div>
       </section>
 
-      <section className="project-grid" aria-label="Projektliste">
+      <section className={styles.grid} aria-label="Projektliste">
         {filteredProjects.map((project) => (
           <Link
             to={`/projects/${project.slug}`}
-            className="project-card"
+            className={styles.card}
             key={project.slug}
           >
             <img src={project.thumbnail} alt={`Preview af ${project.title}`} />
-            <div className="project-card-content">
+            <div className={styles.cardContent}>
                 <p className="eyebrow">{project.year}</p>
                 <h3>{project.title}</h3>
                 <p>{project.summary}</p>

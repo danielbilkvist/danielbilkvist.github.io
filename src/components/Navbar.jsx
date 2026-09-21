@@ -1,6 +1,6 @@
 import { NavLink } from "react-router";
-import "./Navbar.css";
 import { useState, useEffect } from "react";
+import styles from "./Navbar.module.css";
 
 function Navbar() {
   const [scrolled, setScrolled] = useState(false);
@@ -18,12 +18,12 @@ function Navbar() {
   }, []);
 
   return (
-    <header className={`site-header ${scrolled ? "scrolled" : ""}`}>
+    <header className={`${styles.header} ${scrolled ? styles.scrolled : ""}`}>
       {/* <NavLink className="brand" to="/">
         <img src={`${import.meta.env.BASE_URL}public/logo.svg`} alt="Hero" />
       </NavLink> */}
 
-      <nav className="site-nav" aria-label="Primær navigation">
+      <nav className={styles.nav} aria-label="Primær navigation">
         <NavLink to="/" end>
           Home
         </NavLink>

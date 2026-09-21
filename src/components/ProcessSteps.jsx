@@ -1,4 +1,4 @@
-import "./ProcessSteps.css";
+import styles from "./ProcessSteps.module.css";
 
 function ProcessSteps({ project }) {
   const processSteps = Object.keys(project)
@@ -21,19 +21,19 @@ function ProcessSteps({ project }) {
     });
 
   return (
-    <section className="process-list" aria-label="Project process">
+    <section className={styles.list} aria-label="Project process">
       {processSteps.map((step) => (
-        <article className="process-step" key={step.number}>
-          <div className="process-step-heading">
+        <article className={styles.step} key={step.number}>
+          <div className={styles.stepHeading}>
             <p className="eyebrow">Step {step.number}</p>
             {step.title && <h2>{step.title}</h2>}
           </div>
 
-          <div className="process-step-row">
+          <div className={styles.stepRow}>
             {step.image && (
-              <div className="process-image-link">
+              <div className={styles.imageLink}>
                 <img
-                  className="process-image"
+                  className={styles.image}
                   src={step.image}
                   alt={`${project.title} process ${step.number}`}
                   loading="lazy"
@@ -41,7 +41,7 @@ function ProcessSteps({ project }) {
               </div>
             )}
 
-            <div className="process-step-content">
+            <div className={styles.stepContent}>
               <p>{step.text}</p>
             </div>
           </div>

@@ -1,24 +1,25 @@
-import "./Footer.css";
+import styles from "./Footer.module.css";
 
 function Footer() {
   return (
-    <footer className="site-footer">
-      <div className="footer-brand">
+    <footer className={styles.footer}>
+      <div className={styles.brand}>
         <img
-          className="brand-footer"
+          className={styles.logo}
           src={`${import.meta.env.BASE_URL}LogoB.svg`}
           alt="Signature"
         />
-
-        <span className="footer-copyright">© 2026 Daniel Bentzen-Bilkvist</span>
+        <span className={styles.copyright}>
+          &copy; 2026 Daniel Bentzen-Bilkvist
+        </span>
       </div>
 
-      <div className="footer-title">
-        <h3 className="footer-title">Like what you see?</h3>
-        <h3 className="footer-title">Let's create something together!</h3>
+      <div className={styles.title}>
+        <h3 className={styles.titleHeading}>Like what you see?</h3>
+        <h3 className={styles.titleHeading}>Let's create something together!</h3>
       </div>
 
-      <nav className="footer-links" aria-label="Contact links">
+      <nav className={styles.links} aria-label="Contact links">
         <a href="mailto:danielbilkvist@gmail.com">
           <img
             src={`${import.meta.env.BASE_URL}GMail.svg`}
@@ -26,7 +27,6 @@ function Footer() {
             aria-label="Email"
           />
         </a>
-
         <a
           href="https://www.linkedin.com/in/daniel-bentzen-bilkvist-79b731267/"
           target="_blank"
@@ -38,7 +38,6 @@ function Footer() {
             aria-label="LinkedIn"
           />
         </a>
-
         <a
           href="https://github.com/danielbilkvist"
           target="_blank"

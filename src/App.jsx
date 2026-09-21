@@ -1,6 +1,7 @@
 import { Route, Routes } from "react-router";
-import Navbar from "./components/Navbar";
+import styles from "./App.module.css";
 import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 import AboutPage from "./pages/AboutPage";
 import ContactPage from "./pages/ContactPage";
 import HomePage from "./pages/HomePage";
@@ -10,9 +11,8 @@ import ProjectsPage from "./pages/ProjectsPage";
 
 function App() {
   return (
-    <>
+    <div className={styles.app}>
       <Navbar />
-
       <main>
         <Routes>
           <Route path="/" element={<HomePage />} />
@@ -23,9 +23,8 @@ function App() {
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
       </main>
-
       <Footer />
-    </>
+    </div>
   );
 }
 

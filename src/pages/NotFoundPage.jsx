@@ -1,8 +1,9 @@
 import { Link } from "react-router";
+import styles from "./NotFoundPage.module.css";
 
 function NotFoundPage() {
   return (
-    <div className="page narrow">
+    <div className={`page narrow ${styles.page}`}>
       <p className="eyebrow">404</p>
       <h1>Siden blev ikke fundet</h1>
       <p className="lead">

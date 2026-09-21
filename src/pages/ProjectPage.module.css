@@ -1,10 +1,10 @@
-.top-project-content {
+.topContent {
   display: flex;
   flex-direction: column;
   margin-bottom: 1rem;
 }
 
-.project-lead-row {
+.leadRow {
   display: grid;
   grid-template-columns: minmax(0, 1fr) minmax(12rem, 20rem);
   align-items: center;
@@ -14,17 +14,17 @@
   border-bottom: 1px solid color-mix(in srgb, var(--text) 20%, transparent);
 }
 
-.project-lead-row .lead {
+.leadRow :global(.lead) {
   margin-bottom: 0;
 }
 
-.project-lead-row .detail-image {
+.leadRow .detailImage {
   width: 100%;
   margin-bottom: 0;
 }
 
 @media (max-width: 600px) {
-  .project-lead-row {
+  .leadRow {
     grid-template-columns: 1fr;
     gap: 1rem;
   }
