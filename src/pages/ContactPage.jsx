@@ -1,9 +1,10 @@
 import ProjectScroller from "../components/ProjectScroller";
 import projects from "../data/projects";
+import styles from "./ContactPage.module.css";
 
 function ContactPage() {
   return (
-    <div className="page">
+    <div className={`page ${styles.page}`}>
       <ProjectScroller projects={projects} />
       {/* <p className="eyebrow">Contact</p>
       <h1>Lets create something together</h1>
