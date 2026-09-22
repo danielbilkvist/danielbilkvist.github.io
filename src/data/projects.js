@@ -141,15 +141,44 @@ const projects = [
       "Gamification",
     ],
     thumbnail: `${import.meta.env.BASE_URL}MockupHoomie.svg`,
-    image1: `${import.meta.env.BASE_URL}MockupHoomie.svg`,
-    process1: "Explore the users' needs and shape the core product experience.",
+    title1: "Target Audience and Research",
+    image1: `${import.meta.env.BASE_URL}process/WA1.png`,
+    process1: 
+      "The project began with desk research, target group analysis and personas focused on young adults living with roommates. Research uncovered challenges related to shared responsibilities, lack of structure and low motivation for household tasks, creating a strong user-centered foundation.",
+    title2: "User Needs and Problem Definition",
+    image2: `${import.meta.env.BASE_URL}process/WA2.png`,
+    process2: 
+      "Research insights were translated into User Needs, questionnaires and How Might We questions. This helped define the core problems around motivation, task distribution and household coordination while identifying opportunities for gamification and transparency.",
+    title3: "Feature Prioritisation and Information Architecture",
+    image3: `${import.meta.env.BASE_URL}process/WA3.png`,
+    process3: 
+      "Useberry testing, Card Sorting and User Story Mapping were used to prioritise features and structure the application. These activities defined tasks, shopping lists and calendar functionality as the primary user journeys while shaping the overall information architecture.",
+    title4: "User Flows and Wireframes",
+    image4: `${import.meta.env.BASE_URL}process/WA4.png`,
+    process4: 
+      "Before developing the visual design, wireframes were created to establish page structure, navigation patterns and content hierarchy. The focus was on creating simple and intuitive flows that support quick and frequent use in busy households.",
+    title5: "Visual Identity and Design System",
+    image5: `${import.meta.env.BASE_URL}process/WA5.png`,
+    process5: 
+      "A playful visual identity centred around the Hoomie mascot was developed to differentiate the product and strengthen engagement. Colours, typography, spacing units and reusable UI components were organised into a scalable design system within Figma.",
+    title6: "Interactive Prototyping and Evaluation",
+    image6: `${import.meta.env.BASE_URL}process/WA6.png`,
+    process6: 
+      "The design evolved into an interactive Figma prototype using components, variants and overlays to simulate real interactions. A heuristic evaluation based on Nielsen’s usability principles was conducted to identify usability issues before user testing.",
+    title7: "User Testing and Refinement",
+    image7: `${import.meta.env.BASE_URL}process/WA7.png`,
+    process7: 
+      "Think Aloud testing was performed to validate navigation, functionality and overall usability. The testing revealed opportunities to improve system feedback, onboarding, invitations and calendar interactions, leading to refinements of the prototype.",
+    title8: "React Development and Final Product",
+    image8: `${import.meta.env.BASE_URL}process/WA8.png`,
+    process8: 
+      "The final solution was developed as a Single Page Application using React, React Router and Supabase. Reusable components, state management, CRUD functionality and database integration transformed the UX and UI design into a fully functional household management application.",
     links: [
       {
         label: "Live Site",
         href: "https://sebbbenator.github.io/hoomie/task",
       },
     ],
-    image1: `${import.meta.env.BASE_URL}Takenow.png`,
   },
 
   {
@@ -160,8 +189,17 @@ const projects = [
       "As part of the Wanted Archives Project, a social media profile was made for Instagram. Its purpose was to show how the fictional brand would be branded and marketed on social media through posts and stories.",
     description: "---",
     category: ["Minor Creations"],
-    tags: ["Social Media Marketing", "Instagram", "Branding", ],
+    tags: [
+      "Social Media Marketing",
+      "Instagram",
+      "Branding",
+      "Premier Pro",
+      "Video Editing",
+    ],
     thumbnail: `${import.meta.env.BASE_URL}process/WantedInsta.png`,
+    image1: `${import.meta.env.BASE_URL}process/WantedInsta2.png`,
+    process1:
+      "This was my first go trying to design a page for a fictional viral clothing brand. We used current trends and inspiration from similiar brands to create content that would be relevant for the target audience.",
     links: [
       {
         label: "Instagram",
@@ -175,20 +213,20 @@ const projects = [
     title: "TakeNOW.dk",
     year: "Website Contribution",
     summary:
-      "Ive helped  updating different pages, informations and adding new stores to the website.",
+      "Ive made minor contributions to the website TakeNOW.dk, as part of a multi focused job where i helped with both the website, stock, new products and physcial media.",
     description: "---",
     category: ["Contributions"],
     tags: ["Wordpress", "Elementor"],
     thumbnail: `${import.meta.env.BASE_URL}Takenow.png`,
+    image1: `${import.meta.env.BASE_URL}process/TN1.png`,
     process1:
-      "Review the existing website and identify the pages that need updating.",
+      " This was my first time working in wordpress and Elementor, and i learned alot about the tool and how its usefull compared to hard coding.",
     links: [
       {
         label: "Website",
         href: "https://takenow.dk/",
       },
     ],
-    image1: `${import.meta.env.BASE_URL}Unyttigt.png`,
   },
   {
     slug: "unyttigt",
@@ -200,27 +238,29 @@ const projects = [
     category: ["Contributions"],
     tags: ["Shopify"],
     thumbnail: `${import.meta.env.BASE_URL}Unyttigt.png`,
-    process1: "Plan the layout, product presentation, and content structure.",
+    image1: `${import.meta.env.BASE_URL}process/UD1.png`,
+    process1:
+      "This was my first time working on a already build Shopify Page. I helped adding new products and creating a new and more userfriendly layout and design for the website.",
     links: [
       {
         label: "Website",
         href: "https://unyttigt.dk/",
       },
     ],
-    image1: `${import.meta.env.BASE_URL}Bedsteven.png`,
   },
   {
     slug: "bedsteven",
     title: "Bedsteven.dk",
     year: "Website Contribution",
     summary:
-      "Ive helped develop the website for Bedsteven.dk. Helping with layout, design and adding products and stock to the shopify page.",
+      "Ive helped to keep the website Bedsteven.dk up to date with new products, stock and orders. The website is built on Shopify.",
     description: "---",
     category: ["Contributions"],
     tags: ["Shopify"],
     thumbnail: `${import.meta.env.BASE_URL}Bedsteven.png`,
+    image1: `${import.meta.env.BASE_URL}process/BV1.png`,
     process1:
-      "Review the shop structure and improve the presentation of products and content.",
+      "My second time working on a already construct Shopify Page. Since this page was properly build i mostly added new products and handled the orders that was placed on the website.",
     links: [
       {
         label: "Website",
