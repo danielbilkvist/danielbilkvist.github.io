@@ -40,7 +40,7 @@
   display: grid;
   gap: 0.5rem;
   max-width: 640px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 1rem;
 }
 
 .skills {
@@ -80,10 +80,12 @@
   justify-content: space-between;
   align-items: stretch;
   overflow: hidden;
-  border: 1px solid #d2e5dc;
-  background: #fffaf3;
+  border-radius: var(--radius-none);
+  border: 1px solid var(--text-light);
+  background: var(--bg);
   text-decoration: none;
   z-index: 1;
+  padding: 1rem;
 }
 
 .projectCard:hover {
