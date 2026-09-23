@@ -27,6 +27,13 @@ function AboutPage() {
             <a className={styles.phone} href="tel:+4560694929">
               +45 60694929
             </a>
+            <a
+              className={styles.cv}
+              href={`${import.meta.env.BASE_URL}public/CV - Daniel Bilkvist.pdf`}
+              download="public/CV - Daniel Bilkvist.pdf"
+            >
+              CV
+            </a>
           </div>
         </p>
         <img

@@ -21,7 +21,8 @@
 }
 
 .phone,
-.mail {
+.mail,
+.cv {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -36,7 +37,8 @@
 }
 
 .phone:hover,
-.mail:hover {
+.mail:hover,
+.cv:hover {
   transform: scale(1.03);
 }
 
