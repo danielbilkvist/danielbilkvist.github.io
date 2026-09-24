@@ -3,22 +3,21 @@ import styles from "./Footer.module.css";
 function Footer() {
   return (
     <footer className={styles.footer}>
+      <div className={styles.contact}>
       <div className={styles.brand}>
         <img
           className={styles.logo}
           src={`${import.meta.env.BASE_URL}LogoB.svg`}
           alt="Signature"
         />
+      </div>
+      <div className={styles.title}>
+        <h1 className={styles.titleHeading}>FIND ME HERE!</h1>
+        <h3 className={styles.titleSub}>LETS CREATE SOMETHING TOGETHER</h3>
         <span className={styles.copyright}>
           &copy; 2026 Daniel Bentzen-Bilkvist
         </span>
       </div>
-
-      <div className={styles.title}>
-        <h3 className={styles.titleHeading}>Like what you see?</h3>
-        <h3 className={styles.titleHeading}>
-          Let's create something together!
-        </h3>
       </div>
 
       <nav className={styles.links} aria-label="Contact links">

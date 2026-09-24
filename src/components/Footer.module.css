@@ -5,7 +5,14 @@
   margin: 0 auto;
   min-height: 7rem;
   background-color: var(--text);
-  padding: 1rem 10rem;
+  padding: 3rem 10rem;
+}
+
+.contact {
+  display: flex;
+  flex-direction: row;
+  align-items: left;
+  gap: 2rem;
 }
 
 .brand {
@@ -15,7 +22,7 @@
 }
 
 .brand img {
-  width: 5rem;
+  width: 6rem;
   height: auto;
   margin-bottom: 0.5rem;
 }
@@ -48,7 +55,7 @@
 }
 
 .title {
-  text-align: center;
+  text-align: left;
   color: var(--bg);
   font-size: 1rem;
   font-weight: 600;
@@ -57,8 +64,14 @@
 
 .titleHeading {
   color: var(--bg);
-  font-size: 1.1rem;
+  font-size: 2rem;
   margin-bottom: 0.5rem;
+  font-weight: 600;
+}
+
+.titleSub {
+  color: var(--bg);
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
