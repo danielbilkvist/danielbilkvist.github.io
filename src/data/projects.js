@@ -61,6 +61,10 @@ const projects = [
         label: "Live site",
         href: "https://magecties.github.io/customer-experience-exam/",
       },
+      {
+        label: "Github Repo",
+        href: "https://github.com/Magecties/customer-experience-exam",
+      },
     ],
   },
   {
@@ -178,6 +182,10 @@ const projects = [
         label: "Live Site",
         href: "https://sebbbenator.github.io/hoomie/task",
       },
+      {
+        label: "Github Repo",
+        href: "https://github.com/Sebbbenator/hoomie",
+      },
     ],
   },
 
@@ -213,18 +221,30 @@ const projects = [
     title: "Mellemrum",
     year: "Optimization Case",
     summary:
-      "A case study of the Vuuh project, focusing on the design and development process.",
+      "A case to improve the digital event platform Mellemrum. The goal was to improve the user experience, accessibility and overall usability of the platform. The project was built with React and Supabase.",
     description: "---",
     category: ["Cases"],
-    tags: ["UI/UX Design", "Prototyping", "User Research"],
-    thumbnail: `${import.meta.env.BASE_URL}process/Mellemrum.png`,
-    image1: `${import.meta.env.BASE_URL}process/Mellemrum2.png`,
+    tags: [
+      "Optimization",
+      "React",
+      "Supabase",
+      "Backend",
+      "Accessibility",
+      "CRUD",
+      "Semantic Structure",
+    ],
+    thumbnail: `${import.meta.env.BASE_URL}process/MR.png`,
+    image1: `${import.meta.env.BASE_URL}process/MR1.png`,
     process1:
-      "This case study explores the design and development of the Vuuh project, highlighting the challenges and solutions encountered during the process.",
+      "I had a focus on improving error handling, supabase connection, CRUD, and overall semantic structure of the React project.",
     links: [
       {
         label: "Live Site",
         href: "https://danielbilkvist.github.io/mellemrum/",
+      },
+      {
+        label: "Github Repo",
+        href: "https://github.com/danielbilkvist/mellemrum",
       },
     ],
   },
@@ -234,10 +254,11 @@ const projects = [
     title: "Vuuh",
     year: "Optimization Case",
     summary:
-      "A case study of the Vuuh project, focusing on the design and development process.",
+      "We were presented to the onboarding flow of the Vuuh application for Shopify. The goal was to improve the onboarding flow and make it more user friendly for the target audience to optimize the conversion rate.",
     description: "---",
     category: ["Cases"],
     tags: [
+      "Figma",
       "Onboarding",
       "Optimization",
       "UI/UX Design",
@@ -246,14 +267,18 @@ const projects = [
       "Lottie",
       "Animations",
     ],
-    thumbnail: `${import.meta.env.BASE_URL}process/Vuuh.png`,
-    image1: `${import.meta.env.BASE_URL}process/Vuuh2.png`,
+    thumbnail: `${import.meta.env.BASE_URL}process/VU.png`,
+    image1: `${import.meta.env.BASE_URL}process/VU1.png`,
     process1:
-      "This case study explores the design and development of the Vuuh project, highlighting the challenges and solutions encountered during the process.",
+      "The project was created as a Figma Protoype following the Brand Guidelines of Vuuh. We used Progress Tracker, Loading States, System Response, In Context Guidance and Lottie Animations to improve the first time user experience.",
     links: [
       {
         label: "Figma Prototype",
         href: "https://www.figma.com/proto/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?page-id=2137%3A198&node-id=2428-9026&viewport=603%2C167%2C0.11&t=fdG1AkPamuiHbcVR-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2681%3A1421 ",
+      },
+      {
+        label: "Figma Design File",
+        href: "https://www.figma.com/design/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?node-id=2137-198&t=kolWtfdqTwtjFC7G-1",
       },
     ],
   },
