@@ -60,6 +60,8 @@
 @media (max-width: 820px) {
   .grid {
     grid-template-columns: repeat(2, 1fr);
+    gap: 0rem;
+    margin-bottom: 0rem;
   }
 }
 
