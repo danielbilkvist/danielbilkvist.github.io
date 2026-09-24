@@ -29,8 +29,8 @@ function AboutPage() {
             </a>
             <a
               className={styles.cv}
-              href={`${import.meta.env.BASE_URL}public/CV - Daniel Bilkvist.pdf`}
-              download="public/CV - Daniel Bilkvist.pdf"
+              href={`${import.meta.env.BASE_URL}CV%20-%20Daniel%20Bilkvist.pdf`}
+              download="Daniel-Bilkvist-CV.pdf"
             >
               CV
             </a>
