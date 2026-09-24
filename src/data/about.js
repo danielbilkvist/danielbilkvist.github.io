@@ -44,7 +44,7 @@ const about = [
     id: 7,
     title: "I love concerts and discovering music",
     description:
-      "I was pretty late to discover how important music is to me. Its one of the most powerful ways help strengthen different moods and emotions, which is especially important when im working on different project that require different mindsets.",
+      "I was pretty late to discover how important music is to me. Its one of the most powerful ways to help strengthen different moods and emotions, which is especially important when im working on different project that requires different mindsets.",
     image: `${import.meta.env.BASE_URL}Concert.jpg`,
   },
   // {

@@ -5,7 +5,7 @@ function AboutPage() {
   return (
     <div className="page">
       <div className={styles.profile}>
-        <p className="profile-info">
+        <div className={styles.profileInfo}>
           <p className="eyebrow">About me</p>
           <h1>Who am i?</h1>
           <p className="intro">
@@ -27,8 +27,15 @@ function AboutPage() {
             <a className={styles.phone} href="tel:+4560694929">
               +45 60694929
             </a>
+            <a
+              className={styles.cv}
+              href={`${import.meta.env.BASE_URL}public/CV - Daniel Bilkvist.pdf`}
+              download="public/CV - Daniel Bilkvist.pdf"
+            >
+              CV
+            </a>
           </div>
-        </p>
+        </div>
         <img
           className={styles.profileImage}
           src={`${import.meta.env.BASE_URL}Amsterdam.png`}

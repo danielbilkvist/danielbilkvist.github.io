@@ -130,6 +130,12 @@ p {
   background: var(--text);
 }
 
+.actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
 .tag-list {
   display: flex;
   flex-wrap: wrap;

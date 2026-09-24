@@ -61,6 +61,10 @@ const projects = [
         label: "Live site",
         href: "https://magecties.github.io/customer-experience-exam/",
       },
+      {
+        label: "Github Repo",
+        href: "https://github.com/Magecties/customer-experience-exam",
+      },
     ],
   },
   {
@@ -143,40 +147,44 @@ const projects = [
     thumbnail: `${import.meta.env.BASE_URL}MockupHoomie.svg`,
     title1: "Target Audience and Research",
     image1: `${import.meta.env.BASE_URL}process/WA1.png`,
-    process1: 
+    process1:
       "The project began with desk research, target group analysis and personas focused on young adults living with roommates. Research uncovered challenges related to shared responsibilities, lack of structure and low motivation for household tasks, creating a strong user-centered foundation.",
     title2: "User Needs and Problem Definition",
     image2: `${import.meta.env.BASE_URL}process/WA2.png`,
-    process2: 
+    process2:
       "Research insights were translated into User Needs, questionnaires and How Might We questions. This helped define the core problems around motivation, task distribution and household coordination while identifying opportunities for gamification and transparency.",
     title3: "Feature Prioritisation and Information Architecture",
     image3: `${import.meta.env.BASE_URL}process/WA3.png`,
-    process3: 
+    process3:
       "Useberry testing, Card Sorting and User Story Mapping were used to prioritise features and structure the application. These activities defined tasks, shopping lists and calendar functionality as the primary user journeys while shaping the overall information architecture.",
     title4: "User Flows and Wireframes",
     image4: `${import.meta.env.BASE_URL}process/WA4.png`,
-    process4: 
+    process4:
       "Before developing the visual design, wireframes were created to establish page structure, navigation patterns and content hierarchy. The focus was on creating simple and intuitive flows that support quick and frequent use in busy households.",
     title5: "Visual Identity and Design System",
     image5: `${import.meta.env.BASE_URL}process/WA5.png`,
-    process5: 
+    process5:
       "A playful visual identity centred around the Hoomie mascot was developed to differentiate the product and strengthen engagement. Colours, typography, spacing units and reusable UI components were organised into a scalable design system within Figma.",
     title6: "Interactive Prototyping and Evaluation",
     image6: `${import.meta.env.BASE_URL}process/WA6.png`,
-    process6: 
+    process6:
       "The design evolved into an interactive Figma prototype using components, variants and overlays to simulate real interactions. A heuristic evaluation based on Nielsen’s usability principles was conducted to identify usability issues before user testing.",
     title7: "User Testing and Refinement",
     image7: `${import.meta.env.BASE_URL}process/WA7.png`,
-    process7: 
+    process7:
       "Think Aloud testing was performed to validate navigation, functionality and overall usability. The testing revealed opportunities to improve system feedback, onboarding, invitations and calendar interactions, leading to refinements of the prototype.",
     title8: "React Development and Final Product",
     image8: `${import.meta.env.BASE_URL}process/WA8.png`,
-    process8: 
+    process8:
       "The final solution was developed as a Single Page Application using React, React Router and Supabase. Reusable components, state management, CRUD functionality and database integration transformed the UX and UI design into a fully functional household management application.",
     links: [
       {
         label: "Live Site",
         href: "https://sebbbenator.github.io/hoomie/task",
+      },
+      {
+        label: "Github Repo",
+        href: "https://github.com/Sebbbenator/hoomie",
       },
     ],
   },
@@ -204,6 +212,94 @@ const projects = [
   //     {
   //       label: "Instagram",
   //       href: "https://www.instagram.com/wanted.archives/",
+  //     },
+  //   ],
+  // },
+
+  {
+    slug: "mellemrum-case",
+    title: "Mellemrum",
+    year: "Optimization Case",
+    summary:
+      "A case to improve the digital event platform Mellemrum. The goal was to improve the user experience, accessibility and overall usability of the platform. The project was built with React and Supabase.",
+    description: "---",
+    category: ["Cases"],
+    tags: [
+      "Optimization",
+      "React",
+      "Supabase",
+      "Backend",
+      "Accessibility",
+      "CRUD",
+      "Semantic Structure",
+    ],
+    thumbnail: `${import.meta.env.BASE_URL}process/MR.png`,
+    image1: `${import.meta.env.BASE_URL}process/MR1.png`,
+    process1:
+      "I had a focus on improving error handling, supabase connection, CRUD, and overall semantic structure of the React project.",
+    links: [
+      {
+        label: "Live Site",
+        href: "https://danielbilkvist.github.io/mellemrum/",
+      },
+      {
+        label: "Github Repo",
+        href: "https://github.com/danielbilkvist/mellemrum",
+      },
+    ],
+  },
+
+  {
+    slug: "vuuh-case",
+    title: "Vuuh",
+    year: "Optimization Case",
+    summary:
+      "We were presented to the onboarding flow of the Vuuh application for Shopify. The goal was to improve the onboarding flow and make it more user friendly for the target audience to optimize the conversion rate.",
+    description: "---",
+    category: ["Cases"],
+    tags: [
+      "Figma",
+      "Onboarding",
+      "Optimization",
+      "UI/UX Design",
+      "Prototyping",
+      "User Research",
+      "Lottie",
+      "Animations",
+    ],
+    thumbnail: `${import.meta.env.BASE_URL}process/VU.png`,
+    image1: `${import.meta.env.BASE_URL}process/VU1.png`,
+    process1:
+      "The project was created as a Figma Protoype following the Brand Guidelines of Vuuh. We used Progress Tracker, Loading States, System Response, In Context Guidance and Lottie Animations to improve the first time user experience.",
+    links: [
+      {
+        label: "Figma Prototype",
+        href: "https://www.figma.com/proto/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?page-id=2137%3A198&node-id=2428-9026&viewport=603%2C167%2C0.11&t=fdG1AkPamuiHbcVR-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2681%3A1421 ",
+      },
+      {
+        label: "Figma Design File",
+        href: "https://www.figma.com/design/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?node-id=2137-198&t=kolWtfdqTwtjFC7G-1",
+      },
+    ],
+  },
+
+  // {
+  //   slug: "la-rouge-case",
+  //   title: "La Rouge",
+  //   year: "Optimization Case",
+  //   summary:
+  //     "A case study of the La Rouge project, focusing on the design and development process.",
+  //   description: "---",
+  //   category: ["Cases"],
+  //   tags: ["UI/UX Design", "Prototyping", "User Research"],
+  //   thumbnail: `${import.meta.env.BASE_URL}process/Vuuh.png`,
+  //   image1: `${import.meta.env.BASE_URL}process/Vuuh2.png`,
+  //   process1:
+  //     "This case study explores the design and development of the Vuuh project, highlighting the challenges and solutions encountered during the process.",
+  //   links: [
+  //     {
+  //       label: "Figma Prototype",
+  //       href: "https://www.figma.com/proto/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?page-id=2137%3A198&node-id=2428-9026&viewport=603%2C167%2C0.11&t=fdG1AkPamuiHbcVR-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2681%3A1421 ",
   //     },
   //   ],
   // },

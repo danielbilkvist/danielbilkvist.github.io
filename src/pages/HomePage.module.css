@@ -32,7 +32,7 @@
 }
 
 .section {
-    margin-top: 2rem;
+  margin-top: 4rem;
   padding: 2rem 0;
   z-index: 0;
 }
@@ -41,7 +41,6 @@
   display: grid;
   gap: 0.5rem;
   max-width: 640px;
-  margin-bottom: 0.5rem;
 }
 
 .skills {
@@ -73,7 +72,7 @@
 .projectGrid {
   display: grid;
   grid-template-columns: 1fr;
-  gap: 1rem;
+  /* gap: 1rem; */
 }
 
 .projectCard {
@@ -82,16 +81,20 @@
   align-items: stretch;
   overflow: hidden;
   border-radius: var(--radius-none);
-  border: 1px solid var(--text-light);
+  border-bottom: 2px solid #e6e5e5;
+  padding: 1.5rem 0;
+  /* border: 1px solid var(--text-light); */
   background: var(--bg);
   text-decoration: none;
   z-index: 1;
   padding: 1rem;
 }
 
-.projectCard:hover {
-  transform: translateY(-0.25rem);
-  transition: transform 0.1s ease-in-out;
+.projectCard:hover img{
+  /* transform: translateY(-0.25rem);
+  transition: transform 0.1s ease-in-out; */
+  transform: scale(1.02);
+  transition: transform 0.2s ease-in-out;
 }
 
 .projectCard img {
@@ -120,19 +123,23 @@
     min-height: 0;
   }
 
+  .heroSection {
+    min-height: 0;
+  }
+
   .heroImage img {
     right: 0rem;
-    width: 20rem;
+    width: 25rem;
   }
 }
 
 @media (max-width: 720px) {
-  .heroSection {
-    max-width: 300px;
+  .heroImage img {
+  display: none;
   }
 
-  .heroImage img {
-    width: 18rem;
+  .section {
+    padding: 0rem 0;
   }
 
   .projectCard {
@@ -141,12 +148,5 @@
 
   .projectCard img {
     width: 100%;
-  }
-}
-
-
-@media (max-width: 480px) {
-  .heroImage img {
-    display: none;
   }
 }
