@@ -21,7 +21,7 @@ function ProjectsPage() {
   return (
     <div className="page">
       <section className={styles.intro}>
-        <p className="eyebrow">Projects</p>
+        <p className="eyebrow">Creations</p>
         <h1>What I Create</h1>
         {/* <p>Discover my projects, workflows and small experiments</p> */}
 
