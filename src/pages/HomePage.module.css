@@ -12,11 +12,44 @@
 
 .heroFull {
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: flex-end;
   align-items: flex-start;
-  gap: 1.5rem;
+  gap: 1rem;
   align-content: center;
-  min-height: 50svh;
+  height: 90vh;
+  padding-bottom: 1rem;
+}
+
+.heroTop {
+  display: flex;
+  align-items: flex-start;
+  gap: 1rem;
+  align-content: center;
+}
+
+.heroLeft {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  gap: 0rem;
+  align-content: center;
+  z-index: 1;
+  height: 100%;
+}
+
+.heroName {
+  font-size: 2.5rem;
+  color: var(--primary);
+}
+
+.more img:hover {
+  outline: 4px solid var(--primary);
+  transition: none;
+}
+
+.heroBot {
+  font-size: 2.5rem;
 }
 
 .heroImage {
