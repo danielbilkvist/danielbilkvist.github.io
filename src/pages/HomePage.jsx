@@ -29,10 +29,14 @@ function HomePage() {
                 fetchPriority="high"
               />
             </Link>
+            <h2 className={styles.heroProfessionAlt}>
+              UI/UX Design & Frontend Development
+            </h2>
           </section>
         </section>
         <section className={styles.heroBot}>
           <img
+            className={styles.heroProfession}
             src={`${import.meta.env.BASE_URL}Profession.svg`}
             alt="UI/UX Design and Frontend Development"
             loading="eager"
