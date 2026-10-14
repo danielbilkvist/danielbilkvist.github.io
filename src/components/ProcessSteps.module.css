@@ -31,6 +31,7 @@
 
 .list {
   display: grid;
+  grid-template-columns: repeat(1, minmax(0, 1fr));
   gap: 2rem;
   margin-top: 3rem;
   margin-bottom: 2rem;
@@ -45,7 +46,7 @@
 
 .stepHeading h2 {
   margin: 0;
-  font-size: clamp(1rem, 1.4vw, 1.35rem);
+  font-size: clamp(2rem, 1.4vw, 1.35rem);
 }
 
 .stepHeading :global(.eyebrow) {
@@ -54,7 +55,7 @@
 
 .stepRow {
   display: grid;
-  grid-template-columns: minmax(8rem, 14rem) minmax(0, 1fr);
+  grid-template-columns: minmax(12rem, 20rem) minmax(0, 1fr);
   align-items: start;
   gap: 1.5rem;
 }
@@ -69,12 +70,16 @@
 
 .image {
   width: 100%;
-  max-height: 14rem;
+  max-height: 20rem;
   border-radius: 0.75rem;
   object-fit: cover;
 }
 
 @media (max-width: 600px) {
+  .list {
+    grid-template-columns: 1fr;
+  }
+
   .stepRow {
     grid-template-columns: 1fr;
   }
