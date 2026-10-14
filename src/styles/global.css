@@ -50,6 +50,10 @@ textarea {
   margin: 0 auto;
 }
 
+.hero {
+  width: min(100% - 2rem, 1480px);
+}
+
 .narrow {
   width: min(100% - 2rem, 760px);
 }

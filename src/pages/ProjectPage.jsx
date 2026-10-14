@@ -21,10 +21,13 @@ function ProjectPage() {
   }
 
   return (
-    <article className="page narrow">
-      {/* <Link className="back-link" to="/projects">
+    <article className="page">
+      <Link className={styles.back} to="/projects">
+        <span className={styles.backArrow} aria-hidden="true">
+        ↼
+        </span>
         Go back
-      </Link> */}
+      </Link>
       <div className={styles.topContent}>
         <div className="project-title">
           <p className="eyebrow">{project.year}</p>

@@ -6,66 +6,44 @@ function HomePage() {
   const featuredProjects = projects.slice(0, 2);
 
   return (
-    <div className={`page ${styles.homePage}`}>
+    <div className={`page hero ${styles.homePage}`}>
       <section className={styles.heroFull}>
-        <section className={styles.heroSection}>
-          <p className="eyebrow">Daniel Bentzen-Bilkvist</p>
-          <h1>Create more than you consume</h1>
-          <div className={styles.skills}>
-            <img src={`${import.meta.env.BASE_URL}Figma.svg`} alt="Figma" />
-            <img src={`${import.meta.env.BASE_URL}React.svg`} alt="React" />
-            <img src={`${import.meta.env.BASE_URL}Adobe.svg`} alt="Adobe" />
-          </div>
-          {/* <p className="hero-text">UI/UX Design | React Coding | Figma Prototyping</p> */}
-          {/* <p className="hero-text">UI/UX Design | Social Media Marketing</p>
-          <p className="hero-text">Figma | Adobe | React | HTML, CSS, JavaScript</p> */}
-          <div className={styles.actions}>
-            <Link className="button" to="/projects">
-              View Creations
-            </Link>
-            {/* <Link className="button secondary" to="/contact">
-              Talk to me
-            </Link> */}
-          </div>
-        </section>
-        <div className={styles.heroImage}>
-          <img src={`${import.meta.env.BASE_URL}Daniel.png`} alt="Hero" />
-        </div>
-      </section>
-      <section className={styles.section}>
-        <div className={styles.sectionHeading}>
-          <p className="eyebrow">You might also like:</p>
-          <h2>Featured Creations</h2>
-        </div>
-
-        <div className={styles.projectGrid}>
-          {featuredProjects.map((project) => (
-            <Link
-              to={`/projects/${project.slug}`}
-              className={styles.projectCard}
-              key={project.slug}
-            >
+        <section className={styles.heroTop}>
+          <section className={styles.heroLeft}>
+            <h2 className={styles.heroName}>DANIEL</h2>
+            <h2 className={styles.heroName}>BENTZEN-BILKVIST</h2>
+            <div className={styles.create}>
               <img
-                src={project.thumbnail}
-                alt={`Preview af ${project.title}`}
+                src={`${import.meta.env.BASE_URL}CreateHero.svg`}
+                alt="Create"
+                loading="eager"
+                fetchPriority="high"
               />
-              <div className={styles.projectCardContent}>
-                <div>
-                  <p className="eyebrow">{project.year}</p>
-                  <h3>{project.title}</h3>
-                  <p>{project.summary}</p>
-                </div>
-                <div>
-                  <ul className="tag-list">
-                    {project.tags.map((tag) => (
-                      <li key={tag}>{tag}</li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
+            </div>
+          </section>
+          <section className={styles.heroRight}>
+            <Link to="/projects" className={styles.more}>
+              <img
+                src={`${import.meta.env.BASE_URL}MoreHero.svg`}
+                alt="More"
+                loading="eager"
+                fetchPriority="high"
+              />
             </Link>
-          ))}
-        </div>
+            <h2 className={styles.heroProfessionAlt}>
+              UI/UX DESIGN & FRONTEND DEVELOPMENT
+            </h2>
+          </section>
+        </section>
+        <section className={styles.heroBot}>
+          <img
+            className={styles.heroProfession}
+            src={`${import.meta.env.BASE_URL}Profession.svg`}
+            alt="UI/UX Design and Frontend Development"
+            loading="eager"
+            fetchPriority="high"
+          />
+        </section>
       </section>
     </div>
   );
