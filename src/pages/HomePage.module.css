@@ -19,6 +19,8 @@
   align-content: center;
   height: 90vh;
   padding-bottom: 1rem;
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .heroTop {
@@ -183,8 +185,7 @@
   .heroFull {
     min-height: 0;
     height: auto;
-    justify-content: center;
-    height: 85vh;
+    justify-content: start;
   }
 
   .heroTop {

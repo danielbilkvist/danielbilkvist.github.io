@@ -1,6 +1,28 @@
+.back {
+  display: inline-flex;
+  border-radius: var(--radius-none);
+  padding: 0.55rem 0.8rem;
+  text-decoration: none;
+  gap: 0.5rem;
+}
+
+.back:hover {
+  border-color: transparent;
+}
+
+.backArrow {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.back:hover .backArrow {
+  transform: translateX(-0.25rem);
+}
+
 .topContent {
   display: flex;
   flex-direction: column;
+  margin-top: 1rem;
   margin-bottom: 1rem;
 }
 

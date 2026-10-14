@@ -10,7 +10,8 @@ function HomePage() {
       <section className={styles.heroFull}>
         <section className={styles.heroTop}>
           <section className={styles.heroLeft}>
-            <h2 className={styles.heroName}>Daniel Bentzen-Bilkvist</h2>
+            <h2 className={styles.heroName}>DANIEL</h2>
+            <h2 className={styles.heroName}>BENTZEN-BILKVIST</h2>
             <div className={styles.create}>
               <img
                 src={`${import.meta.env.BASE_URL}CreateHero.svg`}
@@ -30,7 +31,7 @@ function HomePage() {
               />
             </Link>
             <h2 className={styles.heroProfessionAlt}>
-              UI/UX Design & Frontend Development
+              UI/UX DESIGN & FRONTEND DEVELOPMENT
             </h2>
           </section>
         </section>
