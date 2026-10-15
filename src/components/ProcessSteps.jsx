@@ -47,6 +47,7 @@ function ProcessSteps({ project }) {
         </article>
       ))}
       <div className={styles.bottom}>
+        <h2>Reflections</h2>
         <p>{project.reflection}</p>
       </div>
     </section>
