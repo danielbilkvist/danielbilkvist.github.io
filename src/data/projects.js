@@ -21,7 +21,6 @@ const projects = [
     image1: `${import.meta.env.BASE_URL}process/CE1.png`,
     process1:
       "I started by analysing the target audience through segmentation, a Value Proposition Canvas and desk research. Interviews were then used to identify user needs, motivations and friction points, giving the project a clear user-focused foundation.",
-
     title2: "User Insights and Structure",
     image2: `${import.meta.env.BASE_URL}process/CE2.png`,
     process2:
@@ -234,10 +233,12 @@ const projects = [
       "Semantic Structure",
     ],
     thumbnail: `${import.meta.env.BASE_URL}process/MR.png`,
+    title1: "Research and Analysis",
     image1: `${import.meta.env.BASE_URL}process/MR1.png`,
     process1:
       "I had a focus on improving error handling, supabase connection, CRUD, and overall semantic structure of the React project.",
-    links: [
+    reflection: "tekst",
+      links: [
       {
         label: "Live Site",
         href: "https://danielbilkvist.github.io/mellemrum/",

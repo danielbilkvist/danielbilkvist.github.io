@@ -32,6 +32,7 @@ function ProjectPage() {
         <div className="project-title">
           <p className="eyebrow">{project.year}</p>
           <h1>{project.title}</h1>
+          <p className="lead">{project.summary}</p>
           <div className="actions">
             {project.links.map((link) => (
               <a
@@ -45,7 +46,6 @@ function ProjectPage() {
               </a>
             ))}
           </div>
-          <p className="lead">{project.summary}</p>
         </div>
         <div className={styles.leadRow}>
           <img

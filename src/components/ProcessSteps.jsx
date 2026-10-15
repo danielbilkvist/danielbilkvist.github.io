@@ -24,11 +24,6 @@ function ProcessSteps({ project }) {
     <section className={styles.list} aria-label="Project process">
       {processSteps.map((step) => (
         <article className={styles.step} key={step.number}>
-          <div className={styles.stepHeading}>
-            <p className="eyebrow">Step {step.number}</p>
-            {step.title && <h2>{step.title}</h2>}
-          </div>
-
           <div className={styles.stepRow}>
             {step.image && (
               <div className={styles.imageLink}>
@@ -42,11 +37,18 @@ function ProcessSteps({ project }) {
             )}
 
             <div className={styles.stepContent}>
+              <div className={styles.stepHeading}>
+                <p className="eyebrow">Step {step.number}</p>
+                {step.title && <h2>{step.title}</h2>}
+              </div>
               <p>{step.text}</p>
             </div>
           </div>
         </article>
       ))}
+      <div className={styles.bottom}>
+        <p>{project.reflection}</p>
+      </div>
     </section>
   );
 }
