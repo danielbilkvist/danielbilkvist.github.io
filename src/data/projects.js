@@ -309,7 +309,7 @@ const projects = [
         href: "https://www.figma.com/design/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?node-id=2137-198&t=kolWtfdqTwtjFC7G-1",
       },
       {
-        label: "UX Audit",
+        label: "UX Audit Summary",
         href: "https://www.figma.com/deck/1ZUGhZqIVvQELxucBe6Jci",
       },
       {
@@ -348,11 +348,23 @@ const projects = [
     image3: `${import.meta.env.BASE_URL}process/LR3.png`,
     process3:
       "The result was a fledged out concept for an endorsed subbrand with its own visual identity, while still being recognisably connected to LA RŌUGE. The new identity is allowed to be loud and rebellious to attract the younger audience, while still being recognisable as the original LA RŌUGE for the original customers. To visualise it we build a visual identity and prototype in figma. This both included a simple visual branddeck, atomic design and a working prototype that focussed on the two primary journeys of d'ocassion: selling and buying. The home page meets the user with a primary choice as the very first thing. Do you buy or do you wanna sell? This makes it possible to sort the two target groups correctly already from the start, so neither of them navigate to the wrong content.",
-      reflection: "---",
+    reflection: "---",
     links: [
       {
         label: "Figma Prototype",
-        href: "https://www.figma.com/proto/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?page-id=2137%3A198&node-id=2428-9026&viewport=603%2C167%2C0.11&t=fdG1AkPamuiHbcVR-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2681%3A1421 ",
+        href: "https://www.figma.com/proto/i98oArkal1wU1PSigmsBzn/La-Rogue-Secondhand-Case?page-id=225%3A3&node-id=274-3893&viewport=-187%2C154%2C0.06&t=xrwMi64fpLSdf5bK-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=274%3A3893",
+      },
+      {
+        label: "Design File",
+        href: "https://www.figma.com/design/i98oArkal1wU1PSigmsBzn/La-Rogue-Secondhand-Case?node-id=513-13539&t=Q0pYRaaBR5WWoo4R-1",
+      },
+      {
+        label: "Brand Deck",
+        href: "https://www.figma.com/design/i98oArkal1wU1PSigmsBzn/La-Rogue-Secondhand-Case?node-id=721-6304&t=Q0pYRaaBR5WWoo4R-1",
+      },
+      {
+        label: "Visual Presentation",
+        href: "https://www.figma.com/deck/k9t9S5ReQ6FOBMath4fX5P",
       },
     ],
   },
