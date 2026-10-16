@@ -45,6 +45,7 @@
 .stepHeading h2 {
   margin: 0;
   font-size: clamp(2rem, 1.4vw, 1.35rem);
+  margin-bottom: 0.25rem;
 }
 
 .stepHeading :global(.eyebrow) {
