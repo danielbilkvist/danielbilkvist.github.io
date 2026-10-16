@@ -216,7 +216,7 @@ const projects = [
   // },
 
   {
-    slug: "mellemrum-case",
+    slug: "mellemrum",
     title: "Mellemrum",
     year: "Optimization Case",
     summary:
@@ -266,7 +266,7 @@ const projects = [
   },
 
   {
-    slug: "vuuh-case",
+    slug: "vuuh",
     title: "Vuuh",
     year: "Optimization Case",
     summary:
@@ -320,7 +320,7 @@ const projects = [
   },
 
   {
-    slug: "la-rouge-case",
+    slug: "la-rouge",
     title: "D'ocassion by La Rouge",
     year: "Optimization Case",
     summary:
