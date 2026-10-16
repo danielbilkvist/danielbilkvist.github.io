@@ -24,7 +24,7 @@ function ProjectPage() {
     <article className="page">
       <Link className={styles.back} to="/projects">
         <span className={styles.backArrow} aria-hidden="true">
-        ↼
+          ↼
         </span>
         Go back
       </Link>
@@ -32,6 +32,7 @@ function ProjectPage() {
         <div className="project-title">
           <p className="eyebrow">{project.year}</p>
           <h1>{project.title}</h1>
+          <p className="lead">{project.summary}</p>
           <div className="actions">
             {project.links.map((link) => (
               <a
@@ -46,15 +47,14 @@ function ProjectPage() {
             ))}
           </div>
         </div>
-      </div>
-      <div className={styles.leadRow}>
-        <p className="lead">{project.summary}</p>
-        <img
-          className={styles.detailImage}
-          src={project.thumbnail}
-          alt={project.title}
-          loading="lazy"
-        />
+        <div className={styles.leadRow}>
+          <img
+            className={styles.detailImage}
+            src={project.thumbnail}
+            alt={project.title}
+            loading="lazy"
+          />
+        </div>
       </div>
 
       <ProcessSteps project={project} />

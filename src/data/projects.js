@@ -21,7 +21,6 @@ const projects = [
     image1: `${import.meta.env.BASE_URL}process/CE1.png`,
     process1:
       "I started by analysing the target audience through segmentation, a Value Proposition Canvas and desk research. Interviews were then used to identify user needs, motivations and friction points, giving the project a clear user-focused foundation.",
-
     title2: "User Insights and Structure",
     image2: `${import.meta.env.BASE_URL}process/CE2.png`,
     process2:
@@ -221,22 +220,35 @@ const projects = [
     title: "Mellemrum",
     year: "Optimization Case",
     summary:
-      "A case to improve the digital event platform Mellemrum. The goal was to improve the user experience, accessibility and overall usability of the platform. The project was built with React and Supabase.",
+      "Mellemrum is a fictional culture and event platform designed to make it easy for users in Aarhus to discover and register for concerts, talks, workshops and other cultural experiences. In this case, I took an existing React prototype and focused on making it more robust, accessible and maintainable. The goal was not to change everything, but to identify the improvements that would create the most value for both users and future development.",
     description: "---",
     category: ["Cases"],
     tags: [
-      "Optimization",
       "React",
+      "Frontend Development",
       "Supabase",
       "Backend",
       "Accessibility",
       "CRUD",
-      "Semantic Structure",
+      "Software Architecture",
+      "Error Handling",
+      "API Integration",
     ],
     thumbnail: `${import.meta.env.BASE_URL}process/MR.png`,
+    title1: "Identifying the Problems",
     image1: `${import.meta.env.BASE_URL}process/MR1.png`,
     process1:
-      "I had a focus on improving error handling, supabase connection, CRUD, and overall semantic structure of the React project.",
+      "The starting point was a functional react project, that had been set up as a base we could improve on. Several parts of the page were not functional nor complete. The registration flow was not working, API requests weren't handling errors or slow loading times, the code structure was unmanageable  and contained duplicated data-fetching logic. The page was missing accessibility optimization and ui feedback in multiple places. To identify and form a total overview, I created a technical audit that identified the problems, an idea on how to fix it and how important the change was for the site's functionality. This led to the biggest issue, which was the lack of database connections, so every event registration was logged instead of handled by a database. Since this is the core function of the page, it was where I started.",
+    title2: "Research and Priorities",
+    image2: `${import.meta.env.BASE_URL}process/MR2.png`,
+    process2:
+      "To solve the critical issues of the technical audit, I created a Supabase project to connect to the platform. This opened the possibility for solving the registration flow. With a registration table, future registrations could now be saved directly, and later called to show the organizers how many registrations they had actually received. Cored function fixed. Next up, Supabase made it possible to minimize duplicate data. By using a foreign key, the registrations could fetch event data directly from the event table. And similarly the event table could fetch the venue data from the venue table. This makes maintenance and future development and event/venue additions easy to handle and edit. Connected to data management, I found it important to implement a strong error-handling that reliably could inform the user of the site's state and make sure to let the user know, if something went wrong while handling data, to make sure they aren't left unaware. To further strengthen the maintenance and development of the page, I created a stronger semantic structure. This includes map structure, function delegation and components to avoid code repetition and dividing the global css into scoped css modules.",
+    title3: "The Implemented Solutions",
+    image3: `${import.meta.env.BASE_URL}process/MR3.png`,
+    process3:
+      "With a strong and robust backend, the next important changes all regarded optimizing the UI. When a user signed up for an event, the page did not give a response. This would give issues with multiple or wrong registrations. So a small system response was added to tell the user that the registration was successful and the submit button was disabled during submission to prevent duplicate registrations. The loading UI also needed a modern update, so a standard skeleton loading state was added to improve the visual loading state. Lastly a cosmetic login option was added, to visualize the importance of keeping the users information safe from public access. So only organizers should be able to access the registration data. Since it wasn't in the case scope, actual authentication has been de-prioritized.",
+    reflection:
+      "This case taught me that optimisation is not necessarily about making more functions and better designs. But about improving the core functions and adding visual states to guide and update the user. During the 2 weeks I worked on Mellemrum, almost nothing changed visually from the original platform. It was strange to write so many new lines of code, and not be able to see it when looking at the visual product. But to then use the version with improved backend and UX/UI design, taught me to prioritise and value the importance of a strong quality code, tailored to support all possible scenarios that the user could expose the product to.",
     links: [
       {
         label: "Live Site",
@@ -246,6 +258,10 @@ const projects = [
         label: "Github Repo",
         href: "https://github.com/danielbilkvist/mellemrum",
       },
+      {
+        label: "Technical Audit",
+        href: "https://drive.google.com/file/d/1kkJI-utrjR05CUm0D10d6fXi-MQGiUqh/view?usp=sharing",
+      },
     ],
   },
 
@@ -254,7 +270,7 @@ const projects = [
     title: "Vuuh",
     year: "Optimization Case",
     summary:
-      "We were presented to the onboarding flow of the Vuuh application for Shopify. The goal was to improve the onboarding flow and make it more user friendly for the target audience to optimize the conversion rate.",
+      "The project focused on improving the onboarding experience for Vuuh, a Shopify app that helps brands manage and transfer product data to their online store. The goal was to make the first-time experience clearer and help new users move from installing Vuuh to successfully connecting Shopify and creating their first demo product.",
     description: "---",
     category: ["Cases"],
     tags: [
@@ -264,13 +280,25 @@ const projects = [
       "UI/UX Design",
       "Prototyping",
       "User Research",
+      "User Centered Design",
       "Lottie",
       "Animations",
     ],
     thumbnail: `${import.meta.env.BASE_URL}process/VU.png`,
+    title1: "Where the onboarding flow fails",
     image1: `${import.meta.env.BASE_URL}process/VU1.png`,
     process1:
-      "The project was created as a Figma Protoype following the Brand Guidelines of Vuuh. We used Progress Tracker, Loading States, System Response, In Context Guidance and Lottie Animations to improve the first time user experience.",
+      "Our analysis showed that the existing onboarding flow created uncertainty at several important points. After installing Vuuh, users received unclear feedback that made it difficult to understand whether the installation had succeeded and what to do next. The dashboard was also visually busy, with information and actions that did not clearly communicate the intended order of the setup process. The Shopify connection flow introduced further friction. After clicking “Connect to Shopify”, users were sent to an Outputs page where they had to find Shopify and select it again before reaching the setup modal. This did not match the user's mental model and made a simple task feel more complicated than necessary. We also identified unclear terminology, technical form fields and missing error and empty states. Through a Heuristic Evaluation and Cognitive Walkthrough, we found that the biggest issues were related to system status, guidance, error recovery and the connection between Shopify and Vuuh.",
+    title2: "UX Audit and Priorities",
+    image2: `${import.meta.env.BASE_URL}process/VU2.png`,
+    process2:
+      "We began with a UX audit using Jakob Nielsen's usability heuristics and a Cognitive Walkthrough based on an amateur Shopify user with basic Shopify knowledge but limited integration experience. The research revealed three key priorities: Create a clear transition from installation to Vuuh. Make the onboarding progression and next action visible. And reduce friction when connecting Shopify and demonstrating Vuuh's value. We used these findings to create Finding Cards and prioritize the problems that had the greatest impact on successful onboarding. We then translated the findings into design principles: guide users with one clear next step at a time, provide help in context, communicate system status clearly, and allow users to leave and return without losing progress.",
+    title3: "The improved onboarding experience",
+    image3: `${import.meta.env.BASE_URL}process/VU3.png`,
+    process3:
+      "The biggest change was the transition from installation to first use. Instead of leaving users on an unclear success/error screen, the redesigned experience confirms that Vuuh has been installed successfully and explains what happens next. A direct “Open Vuuh” CTA takes the user straight into the app. Inside the dashboard, we introduced a lightweight onboarding status showing where the user is, what has been completed and what remains. The Shopify connection can now be started directly from the dashboard, removing the unnecessary detour through the Outputs page. The Shopify setup was redesigned with clearer labels, contextual guidance and more understandable terminology. We also considered error recovery, contrast, focus states and consistent action copy to make the experience more accessible and robust. After connecting Shopify, the user is guided towards a demo product. The interface explains that the product is only a demonstration and uses clear loading and success states such as “Creating your demo product” and “Your demo product is ready.” This gives the user concrete confirmation that the integration works before moving on to connecting brands.",
+    reflection:
+      "This case taught me that effective onboarding is not just about reducing the number of steps. It is about making every step understandable and giving users confidence that they are moving in the right direction. A key learning was the importance of designing around the user's mental model rather than the structure of the system. By combining research findings with interaction design and accessibility considerations, I learned how small changes in feedback, terminology and progression can significantly reduce friction in a complex setup process. The project also strengthened my ability to turn UX research into design decisions while keeping the focus on the user's goal.",
     links: [
       {
         label: "Figma Prototype",
@@ -280,29 +308,65 @@ const projects = [
         label: "Figma Design File",
         href: "https://www.figma.com/design/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?node-id=2137-198&t=kolWtfdqTwtjFC7G-1",
       },
+      {
+        label: "UX Audit Summary",
+        href: "https://www.figma.com/deck/1ZUGhZqIVvQELxucBe6Jci",
+      },
+      {
+        label: "Presentation",
+        href: "https://www.figma.com/deck/Fg2N624IMB5Grf1ESC9aNj",
+      },
     ],
   },
 
-  // {
-  //   slug: "la-rouge-case",
-  //   title: "La Rouge",
-  //   year: "Optimization Case",
-  //   summary:
-  //     "A case study of the La Rouge project, focusing on the design and development process.",
-  //   description: "---",
-  //   category: ["Cases"],
-  //   tags: ["UI/UX Design", "Prototyping", "User Research"],
-  //   thumbnail: `${import.meta.env.BASE_URL}process/Vuuh.png`,
-  //   image1: `${import.meta.env.BASE_URL}process/Vuuh2.png`,
-  //   process1:
-  //     "This case study explores the design and development of the Vuuh project, highlighting the challenges and solutions encountered during the process.",
-  //   links: [
-  //     {
-  //       label: "Figma Prototype",
-  //       href: "https://www.figma.com/proto/reqZjXUxZJj8l2q5l9sjf9/Case-2---3.-Semester?page-id=2137%3A198&node-id=2428-9026&viewport=603%2C167%2C0.11&t=fdG1AkPamuiHbcVR-1&scaling=min-zoom&content-scaling=fixed&starting-point-node-id=2681%3A1421 ",
-  //     },
-  //   ],
-  // },
+  {
+    slug: "la-rouge-case",
+    title: "D'ocassion by La Rouge",
+    year: "Optimization Case",
+    summary:
+      "D'ocassion is a concept for a new digital subbrand that gives  LA RŌUGE's existing secondhand initiative its own identity, tone of voice and user experience. The goal was to create a platform where customers could easily buy and return pre-owned LA RŌUGE styles. The subbrand is focussed on a younger generation where it can shine more with its femininity and originality, without comprising the timelessness and quality of the original brand.",
+    description: "---",
+    category: ["Cases"],
+    tags: [
+      "UI/UX Design",
+      "Prototyping",
+      "User Research",
+      "Re-Commerce",
+      "Figma",
+      "Branddeck",
+    ],
+    thumbnail: `${import.meta.env.BASE_URL}process/LR.png`,
+    title1: "A subbrand for who?",
+    image1: `${import.meta.env.BASE_URL}process/LR1.png`,
+    process1:
+      "Through desk research on secondhand and re-commerce, we discovered a new consumer for secondhand LA RŌUGE, different from the one they had. The current target group is currently both supplying LA RŌUGE with used pieces, but are also expected to buy them. Research showed that the younger generation consumes much more secondhand fashion, since they prioritise price more than the current target group, who choose LA RŌUGE for quality timelessnes. A major threat on the second hand market is vinted, both for consumers and sellers. The best opportunity for LA RŌUGE would be to create a subbrand that lets the younger consumers buy trusted, unique and quality clothes at a lower price. While still appealing to the older group who works as suppliers. They want to, reliably and without friction, trade in their unused clothes, and would be happy with reinvesting in new LA RŌUGE pieces.",
+    title2: "A Branded House",
+    image2: `${import.meta.env.BASE_URL}process/LR2.png`,
+    process2:
+      "Since we decided to still appeal to both target groups, we made  a branded house. This meant that d'ocassion had to be visually related to LA RŌUGE. We wanted to tap into the strong identity of the LA RŌUGE brand and its creator. She's a strong individual who ties back to rødstrømpebevægelsen. With a new younger target group, we tried to channel the sharp feminine energy, bluntness and rebellious tone of the feminist movement. From the adjectives, we worked out multiple moodboard to find the right vibe. Even trying to revisit the chic french aesthetic of the original LA RŌUGE. We found a perfect balance between loudly rebellious and authentically chic. This made it possible to both appeal to both groups.",
+    image3: `${import.meta.env.BASE_URL}process/LR3.png`,
+    process3:
+      "Through our visual identity, we focused on keeping this balance. Our title font represents French elegance, with a contrasting font which was loud, attention seeking and symbolised lipstick aggressively smeared on a mirror. We created a new tone of voice from the existing one, where we tweaked a couple factors. The new brand is less formal and much more rebellious, enthusiastic and personal. We emphasized the tone of voice with a specific image style. We use more down to earth and social settings, also matching LA RŌUGE's wish for every woman to feel good with being themself. To visualise the concept, we build a design system and prototype in figma. This both included atomic design and a working prototype that focussed on the two primary journeys of d'ocassion: selling and buying. The home page meets the user with a primary choice as the very first thing. Do you buy or do you wanna sell? This makes it possible to sort the two target groups correctly already from the start, so neither of them navigate to the wrong content.",
+    reflection: "An overall very fun project. It was exciting to find the perfect balance between the two target groups. I learned a lot about visual identity, and the importance of personalizing products to make a strong brand. Especially when trying to make a subbrand to an already strong personality. I found out how a branded house can appeal to different demographics, while being able to pull on the strong aspects of the original brand. We also dabbled with the idea of creating a brand that was more than just pieces of clothing. Maybe receiving a pair of red socks to represent the feminist movement would create a community of individuals with a common goal of being their unapologetic selves.",
+    links: [
+      {
+        label: "Figma Prototype",
+        href: "https://www.figma.com/proto/i98oArkal1wU1PSigmsBzn/La-Rogue-Secondhand-Case?page-id=225%3A3&node-id=274-3893&viewport=-187%2C154%2C0.06&t=xrwMi64fpLSdf5bK-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=274%3A3893",
+      },
+      {
+        label: "Design File",
+        href: "https://www.figma.com/design/i98oArkal1wU1PSigmsBzn/La-Rogue-Secondhand-Case?node-id=513-13539&t=Q0pYRaaBR5WWoo4R-1",
+      },
+      {
+        label: "Brand Deck",
+        href: "https://www.figma.com/design/i98oArkal1wU1PSigmsBzn/La-Rogue-Secondhand-Case?node-id=721-6304&t=Q0pYRaaBR5WWoo4R-1",
+      },
+      {
+        label: "Visual Presentation",
+        href: "https://www.figma.com/deck/k9t9S5ReQ6FOBMath4fX5P",
+      },
+    ],
+  },
 
   {
     slug: "takenow",
