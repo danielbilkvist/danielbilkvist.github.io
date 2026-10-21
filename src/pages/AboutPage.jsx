@@ -32,7 +32,7 @@ function AboutPage() {
               href={`${import.meta.env.BASE_URL}CV%20-%20Daniel%20Bilkvist.pdf`}
               download="Daniel-Bilkvist-CV.pdf"
             >
-              CV
+              Download CV
             </a>
           </div>
         </div>
